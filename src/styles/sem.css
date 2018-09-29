@@ -1,0 +1,330 @@
+.banner {
+    background-size: contain;
+    background: url(../images/img_zj/banner1.jpg) center no-repeat;
+    height: 490px;
+    background-size: 130% 100%;
+}
+
+.banner .row img {
+    margin-top: 200px;
+}
+
+.banner .row {
+    width: 100%;
+}
+
+.banner .row b {
+    display: block;
+    color: #fff;
+    font-size: 22px;
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+
+.banner .row span {
+    color: #fff;
+    font-size: 25px;
+}
+
+.banner .row u {
+    color: #daa73a;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.main-top .col-md-6 {
+    padding-top: 30px;
+}
+
+.main-top {
+    margin-bottom: 30px;
+}
+
+.main-top .col-md-1 {
+    padding-top: 110px;
+}
+
+.main-top .col-md-5 {
+    padding-top: 160px;
+}
+
+.main-bottom .col-md-6 {
+    padding-top: 160px;
+}
+
+.main-bottom {
+    margin-bottom: 90px;
+}
+
+.main-middle {
+    background-image: url(../images/bg.jpg);
+}
+
+.blue {
+    background-color: #0048d2;
+    padding-bottom: 20px;
+}
+
+.blue h2 {
+    color: #fff;
+}
+
+.blue h2 b {
+    font-size: 16px;
+    color: #fff;
+}
+
+.blue .row {
+    padding: 20px 0;
+}
+
+.blue .row span {
+    display: inline-block;
+    line-height: 30px;
+    margin-top: 45px;
+    color: #fff;
+}
+
+.sever .text-right {
+    padding: 0;
+    height: 80px;
+    line-height: 80px;
+}
+
+.sever {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.sever .lg {
+    position: absolute;
+    left: 50%;
+    top: 60px;
+}
+
+.sever h3 {
+    font-size: 30px;
+}
+
+.sever h2 {
+    padding: 0 20px;
+    margin: 0!important;
+    line-height: 120px;
+    height: 120px;
+    font-size: 40px;
+}
+
+.sever span {
+    line-height: 120px;
+    height: 120px;
+    font-size: 22px;
+    padding: 0 20px;
+}
+
+.sever .t-right {
+    text-align: right;
+}
+
+.sever-content {
+    background-color: #fcfcfc;
+    padding-top: 30px;
+}
+
+.sever-content .list1 {
+    width: 130px;
+    height: 80px;
+    border: 2px solid rgb(142, 19, 15);
+}
+
+.sever-content .list1 b {
+    display: block;
+    font-size: 30px;
+    position: absolute;
+    top: 22px;
+    right: 30px;
+    background: rgb(252, 252, 252);
+}
+
+.sever-content .list2 {
+    width: 130px;
+    height: 80px;
+    border: 2px solid rgb(89, 134, 25);
+}
+
+.sever-content .list2 b {
+    display: block;
+    font-size: 30px;
+    position: absolute;
+    top: 22px;
+    right: 30px;
+    background: rgb(252, 252, 252);
+}
+
+.sever-content .list3 {
+    width: 130px;
+    height: 80px;
+    border: 2px solid rgb(60, 35, 98);
+}
+
+.sever-content .list3 b {
+    display: block;
+    font-size: 30px;
+    position: absolute;
+    top: 22px;
+    right: 30px;
+    background: rgb(252, 252, 252);
+}
+
+.sever-content .list4 {
+    width: 130px;
+    height: 80px;
+    border: 2px solid rgb(13, 112, 152);
+}
+
+.sever-content .list4 b {
+    display: block;
+    font-size: 30px;
+    position: absolute;
+    top: 22px;
+    right: 30px;
+    background: rgb(252, 252, 252);
+}
+
+.sever-content .col-lg-3 {
+    height: 150px;
+    margin: 20px 0;
+    margin-bottom: 60px;
+}
+
+.sever-content span {
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.sever-content h5 {
+    font-size: 40px;
+}
+
+.sever-content h6 {
+    text-align: center;
+    font-size: 25px;
+    color: #666;
+    line-height: 50px;
+}
+
+@media screen and (max-width: 1300px) {
+    .banner {
+        width: 100%;
+        height: 400px;
+        zoom: 0.78;
+    }
+    .banner .row u {
+        font-size: 18px;
+    }
+    .main-top .col-md-1 {
+        padding-top: 30px;
+    }
+    .main-top .col-md-5 {
+        padding-top: 30px;
+        text-align: center;
+    }
+    .blue .row span {
+        display: inline-block;
+        line-height: 30px;
+        margin-top: 40px;
+        margin-bottom: 90px;
+        color: #fff;
+    }
+    .blue .row img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .sever span {
+        font-size: 16px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .banner {
+        width: 100%;
+        height: 400px;
+        zoom: 0.4;
+        background-size: 200% 100%;
+    }
+    .banner .row img {
+        margin-top: 180px;
+    }
+    .banner .row span {
+        font-size: 20px;
+    }
+    .banner .row b {
+        font-size: 16px;
+    }
+    .banner .row u {
+        font-size: 18px;
+    }
+    .main-top .col-md-1 {
+        padding-top: 30px;
+    }
+    .main-top .col-md-5 {
+        padding-top: 20px;
+        text-align: center;
+    }
+    .main-bottom .col-md-6 {
+        padding-top: 30px;
+    }
+    .main-bottom {
+        margin-bottom: 30px;
+    }
+    .blue .row span {
+        display: inline-block;
+        line-height: 30px;
+        margin-top: 50px;
+        margin-bottom: 80px;
+        color: #fff;
+        font-size: 12px;
+    }
+    .blue .row img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .sever .lg {
+        left: 5px;
+    }
+    .sever h2 {
+        text-align: left;
+    }
+    .sever .col-md-6 {
+        padding: 0;
+    }
+    .sever span {
+        font-size: 12px;
+        text-align: left;
+        white-space: nowrap;
+        overflow: hidden;
+        padding: 0;
+    }
+    .sever .t-right {
+        text-align: left;
+    }
+    .sever-content .center-block b {
+        display: block;
+        font-size: 22px;
+        position: absolute;
+        top: 22px;
+        right: 30px;
+        background: rgb(252, 252, 252);
+    }
+    .sever-content h5 {
+        font-size: 30px;
+    }
+    .sever-content h6 {
+        text-align: center;
+        font-size: 16px;
+        color: #666;
+        line-height: 50px;
+    }
+}
