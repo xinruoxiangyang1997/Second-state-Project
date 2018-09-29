@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+/* 公共插件样式 */
+
+.fix-right {
+    position: fixed;
+    right: 0;
+    top: 100px;
+}
+
+.fix-right div {
+    width: 60px;
+    height: 60px;
+    background-color: #ffbb00;
+    margin-bottom: 5px;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.fix-right div:hover {
+    background-color: #333;
+}
+
+.fix-right div p i {
+    font-size: 28px;
+    color: #fff;
+}
+
+.fix-right div span {
+    color: #fff;
+    font-size: 12px;
+}
+
+.fix-right .bottom {
+    display: none;
+}
+
+.fix-right .hover {
+    position: absolute;
+    left: -130px;
+    top: 90px;
+    background-color: #333;
+    width: 120px;
+    height: 150px;
+    display: none;
+}
+
+.fix-right .middle:hover .hover {
+    display: block;
+}
+
+.fix-right .hover p {
+    color: #ffbb00;
+}
+
+.fix-right .hover p i {
+    font-size: 50px;
+}
+
+
+/* 小屏幕992px */
+
+@media(max-width:992px) {
+    .fix-right div {
+        width: 44px;
+        height: 44px;
+    }
+    .fix-right div p i {
+        font-size: 20px;
+        color: #fff;
+    }
+    .fix-right div span {
+        display: none;
+    }
+}
