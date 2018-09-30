@@ -1,0 +1,503 @@
+@charset "utf-8";
+
+/*banner区域样式*/
+
+.doctary_banner {
+    text-align: center;
+    width: 100%;
+    /* height: 621px; */
+    overflow: hidden;
+    position: relative;
+    background: url(../images/img_wj/gdw/banner1.jpg) center center no-repeat;
+}
+
+.doctary_banner>h3 {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 325px auto 0;
+    font-size: 40px;
+    color: #EC7C30;
+    position: relative;
+    letter-spacing: 2px;
+}
+
+.doctary_banner>h3:before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background: #000;
+    left: 0;
+    bottom: -16px;
+}
+
+.doctary_banner>h3:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #000;
+    left: 0;
+    bottom: -10px;
+}
+
+
+/*数据输出区域样式*/
+
+.data_print {
+    width: 100%;
+    /* height: 482px; */
+    margin-top: 60px;
+    padding-bottom: 60px;
+    background-color: #f5f5f5;
+}
+
+.data_print>h3 {
+    overflow: hidden;
+    font-size: 30px;
+    text-align: center;
+    color: #EC7C30;
+    line-height: 50px;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+
+.data_print .data-info {
+    padding: 50px 10px 0;
+}
+
+.data_print .data-info>.item {
+    padding-top: 60px;
+    position: relative;
+    padding-bottom: 50px;
+    border: 1px solid #ccc
+}
+
+.data_print .data-info>.item:hover {
+    border: 1px solid #EC7C30;
+}
+
+.data_print .data-info>.item:hover .pic {
+    border: 1px solid #EC7C30;
+}
+
+.data_print .data-info>.item>h3 {
+    display: block;
+    padding: 10px 50px 0 50px;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+.data_print .data-info>.item>p {
+    display: block;
+    padding: 10px 50px 0 50px;
+    font-size: 12px;
+}
+
+.data_print .data-info>.item>.pic {
+    display: inline-block;
+    height: 110px;
+    width: 110px;
+    border: 1px solid #ccc;
+    border-radius: 110px;
+    position: absolute;
+    left: 50%;
+    margin-left: -55px;
+    top: -60px;
+    background-color: #f5f5f5;
+}
+
+.data_print .data-info>.item>.pic:before {
+    display: inline-block;
+    content: "";
+    width: 0;
+    height: 100%;
+    vertical-align: middle;
+    font-size: 0;
+}
+
+.data_print .data-info>.item>.pic>img {
+    vertical-align: middle
+}
+
+
+/*数据云存储区域开始*/
+
+.data_cloud_storage {
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.detail {
+    padding: 30px 0 0 0;
+}
+
+.data_cloud_storage>h3 {
+    overflow: hidden;
+    font-size: 30px;
+    text-align: center;
+    color: #EC7C30;
+    line-height: 50px;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+
+
+/*全平台实时协作样式开始*/
+
+.all_platform {
+    background-color: #f5f5f5;
+}
+
+.all_platform>h3 {
+    overflow: hidden;
+    font-size: 30px;
+    text-align: center;
+    color: #EC7C30;
+    line-height: 50px;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+
+
+/*数据云存储区域结束*/
+
+
+/*大屏显示器*/
+
+@media (min-width:1300px) {
+    .doctary_banner {
+        width: 100%;
+        height: 621px;
+    }
+    .doctary_banner>h3 {
+        margin-top: 105px;
+        font-size: 50px;
+        margin-top: 325px;
+    }
+    /*进度跟踪区域样式*/
+    .progress_follow>h3 {
+        font-size: 30px;
+        text-align: center;
+        color: #EC7C30;
+        line-height: 50px;
+        font-weight: bold;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .progress_follow>ul {
+        padding: 0 190px;
+        display: flex;
+        margin-bottom: 20px;
+        justify-content: space-between;
+    }
+    .progress_follow>ul>li {
+        width: 49%;
+        text-align: center;
+        padding: 20px 50px;
+        height: 212px;
+        border: 1px solid #FDE5DA
+    }
+    .progress_follow>ul>li:hover {
+        width: 49%;
+        text-align: center;
+        padding: 20px 50px;
+        height: 212px;
+        border: 1px solid #EC7C30
+    }
+    .progress_follow>ul>li h3 {
+        display: block;
+        padding-top: 10px;
+        font-size: 20px;
+        color: #000;
+        font-weight: bold;
+    }
+    .progress_follow>ul>li p {
+        display: block;
+        padding-top: 10px;
+    }
+    .progress_follow>ul>.ml {
+        margin-left: 20px;
+    }
+    /*数据输出区域样式*/
+    .data_print>h3 {
+        overflow: hidden;
+        font-size: 30px;
+        text-align: center;
+        color: #EC7C30;
+        line-height: 50px;
+        font-weight: bold;
+        padding-top: 50px;
+        margin-bottom: 40px;
+    }
+}
+
+
+/* 中等显示器（桌面显示器，大于等于 992px） */
+
+@media (min-width:992px)and (max-width:1300px) {
+    .doctary_banner {
+        width: 100%;
+        height: 621px;
+        margin-top: 0;
+        zoom: 0.5;
+    }
+    .doctary_banner>h3 {
+        margin-top: 105px;
+        font-size: 50px;
+    }
+    /*进度跟踪区域样式*/
+    .progress_follow>h3 {
+        font-size: 30px;
+        text-align: center;
+        color: #EC7C30;
+        line-height: 50px;
+        font-weight: bold;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .progress_follow>ul {
+        padding: 0 190px;
+        display: flex;
+        margin-bottom: 20px;
+        justify-content: space-between;
+    }
+    .progress_follow>ul>li {
+        width: 49%;
+        text-align: center;
+        padding: 20px 25px;
+        height: 212px;
+        border: 1px solid #FDE5DA
+    }
+    .progress_follow>ul>li:hover {
+        border: 1px solid #EC7C30
+    }
+    .progress_follow>ul>li h3 {
+        display: block;
+        padding-top: 10px;
+        font-size: 20px;
+        color: #000;
+        font-weight: bold;
+    }
+    .progress_follow>ul>li p {
+        display: block;
+        padding-top: 10px;
+    }
+    .progress_follow>ul>.ml {
+        margin-left: 20px;
+    }
+    .data_print>h3 {
+        overflow: hidden;
+        font-size: 25px;
+        text-align: center;
+        color: #EC7C30;
+        line-height: 50px;
+        font-weight: bold;
+        padding-top: 50px;
+        margin-bottom: 40px;
+    }
+}
+
+
+/* 小屏幕（平板，大于等于 768px） */
+
+@media (min-width:768px) and (max-width:992px) {
+    .doctary_banner {
+        width: 100%;
+        height: 400px;
+        margin-top: 60px;
+        zoom: 0.4;
+    }
+    .doctary_banner>h3 {
+        margin-top: 105px;
+        font-size: 50px;
+    }
+    .doctary_banner>h3:after {
+        display: none;
+    }
+    /*进度跟踪区域样式*/
+    .progress_follow>h3 {
+        font-size: 25px;
+        text-align: center;
+        color: #EC7C30;
+        line-height: 50px;
+        font-weight: bold;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .progress_follow>ul {
+        padding: 0 20px;
+        display: flex;
+        margin-bottom: 20px;
+        justify-content: space-between;
+    }
+    .progress_follow>ul>li {
+        width: 49%;
+        text-align: center;
+        padding: 10px 25px;
+        height: 212px;
+        border: 1px solid #FDE5DA
+    }
+    .progress_follow>ul>li:hover {
+        width: 49%;
+        text-align: center;
+        padding: 10px 25px;
+        height: 212px;
+        border: 1px solid #EC7C30
+    }
+    .progress_follow>ul>li h3 {
+        display: block;
+        padding-top: 10px;
+        font-size: 16px;
+        color: #000;
+        font-weight: bold;
+    }
+    .progress_follow>ul>li p {
+        display: block;
+        padding-top: 10px;
+    }
+    .progress_follow>ul>.ml {
+        margin-left: 20px;
+    }
+    .data_print .data-info>.item>.pic {
+        display: inline-block;
+        height: 72px;
+        width: 72px;
+        border: 1px solid #ccc;
+        border-radius: 110px;
+        position: absolute;
+        left: 50%;
+        margin-left: -35px;
+        top: -35px;
+        background-color: #f5f5f5;
+    }
+    .data_print>h3 {
+        overflow: hidden;
+        font-size: 20px;
+        text-align: center;
+        color: #EC7C30;
+        line-height: 50px;
+        font-weight: bold;
+        padding-top: 50px;
+        margin-bottom: 40px;
+    }
+    .yun {
+        padding-bottom: 30px;
+    }
+    .detail {
+        padding: 30px 50px 0 50px;
+    }
+}
+
+
+/* 小屏幕（平板，大于等于 768px） */
+
+@media (max-width:768px) {
+    .doctary_banner {
+        width: 100%;
+        height: 400px;
+        /* margin-top: 60px; */
+        zoom: 0.5;
+    }
+    .doctary_banner>h3 {
+        margin-top: 105px;
+        font-size: 50px;
+        letter-spacing: 5px;
+    }
+    .doctary_banner>h3:after {
+        display: none;
+    }
+    /*进度跟踪区域样式*/
+    .progress_follow>h3 {
+        font-size: 16px;
+        text-align: center;
+        color: #EC7C30;
+        line-height: 50px;
+        font-weight: bold;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .progress_follow>ul {
+        padding: 0 20px;
+        display: flex;
+        margin-bottom: 20px;
+        justify-content: space-between;
+    }
+    .progress_follow>ul>li {
+        width: 49%;
+        text-align: center;
+        padding: 10px 10px;
+        height: 230px;
+        border: 1px solid #FDE5DA
+    }
+    .progress_follow>ul>li h3 {
+        display: block;
+        padding-top: 10px;
+        font-size: 14px;
+        color: #000;
+        font-weight: bold;
+    }
+    .progress_follow>ul>li p {
+        display: block;
+        padding-top: 10px;
+        font-size: 12px;
+    }
+    .progress_follow>ul>.ml {
+        margin-left: 20px;
+    }
+    .data_print .data-info>.item>.pic {
+        display: inline-block;
+        height: 72px;
+        width: 72px;
+        border: 1px solid #ccc;
+        border-radius: 110px;
+        position: absolute;
+        left: 50%;
+        margin-left: -35px;
+        top: -35px;
+        background-color: #f5f5f5;
+    }
+    .data_print>h3 {
+        overflow: hidden;
+        font-size: 16px;
+        text-align: center;
+        color: #EC7C30;
+        line-height: 50px;
+        font-weight: bold;
+        padding-top: 10px;
+        margin-bottom: 0;
+    }
+    .data_print .data-info {
+        padding: 50px 10px 0;
+    }
+    .detail {
+        padding: 30px 50px 0 50px;
+    }
+    .yun {
+        padding-bottom: 30px;
+    }
+    .data_cloud_storage>h3 {
+        overflow: hidden;
+        font-size: 16px;
+        text-align: center;
+        color: #EC7C30;
+        line-height: 50px;
+        font-weight: bold;
+        padding-top: 10px;
+        margin-bottom: 0;
+    }
+    .all_platform>h3 {
+        overflow: hidden;
+        font-size: 16px;
+        text-align: center;
+        color: #EC7C30;
+        line-height: 50px;
+        font-weight: bold;
+        padding-top: 10px;
+        margin-bottom: 0;
+    }
+}
