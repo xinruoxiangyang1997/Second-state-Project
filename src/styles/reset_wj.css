@@ -1,5 +1,9 @@
 /*公共样式--开始*/
 
+* {
+    box-sizing: border-box
+}
+
 html,
 body,
 div,

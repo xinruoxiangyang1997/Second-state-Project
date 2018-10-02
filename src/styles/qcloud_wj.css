@@ -1,0 +1,193 @@
+@charset "utf-8";
+
+/*banner区域*/
+
+.qcloud_banner {
+    width: 100%;
+    height: 449px;
+    overflow: hidden;
+    position: relative;
+    background: url(../images/img_wj/qcloud/banner1.jpg) center center no-repeat;
+    text-align: center;
+}
+
+
+/*解决方案区域*/
+
+.solve_mtd {
+    background-color: #f2f2f2;
+}
+
+.solve_mtd>h3 {
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    font-weight: normal;
+}
+
+.solve_mtd>p {
+    font-family: "黑体";
+    font-size: 18px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: normal;
+    margin-bottom: 40px;
+}
+
+
+/*选项卡部分*/
+
+.solve_mtd>.tab_bar {
+    width: 100%;
+}
+
+.solve_mtd>.tab_bar>li:first-child {
+    margin-left: 20px;
+}
+
+.solve_mtd>.tab_bar>li {
+    float: left;
+    font-size: 16px;
+    padding: 0px 15px;
+    line-height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    margin-right: 8px;
+}
+
+.solve_mtd>.tab_bar>li:hover {
+    background: #CDE8FF;
+    border: 1px solid #CDE8FF;
+}
+
+.solve_mtd>.tab_bar>.active:hover {
+    background: #2A71B9;
+    color: #fff;
+    border: 1px solid #2A71B9;
+}
+
+.solve_mtd>.tab_bar>.active {
+    background: #2A71B9;
+    color: #fff;
+    border: 1px solid #2A71B9;
+}
+
+.cont {
+    margin-top: 20px;
+}
+
+.col-md-9 {
+    border-right: 1px solid #ddd;
+    margin-top: 40px;
+}
+
+.showList {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.showList>li {
+    float: left;
+    margin-right: 5px;
+    background: rgba(205, 214, 223, .5);
+    border: 1px solid #CDD6DF;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.showList>li>img {
+    width: 100%;
+}
+
+.showList>li:last-child {
+    margin-right: 0;
+}
+
+.detail>h4 {
+    font-family: "黑体";
+    font-size: 20px;
+    line-height: 45px;
+    color: #373737;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.detail>p {
+    font-family: "黑体";
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.right {
+    margin: 0 auto;
+}
+
+.right>a {
+    margin: 0 auto;
+    width: 250px;
+    margin-left: 30px;
+    display: inline-block;
+    background: #fff;
+    font-size: 25px;
+    margin-top: 40px;
+    line-height: 55px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.right>a:hover,
+.right>a:active {
+    background: #2A71B9;
+    border: 1px solid #2A71B9;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width:1300px) {
+    .qcloud_banner {
+        width: 100%;
+        height: 400px;
+        background: url(../images/img_wj/qcloud/banner1.jpg) center center no-repeat;
+        zoom: 0.65;
+    }
+    .solve_mtd>h3 {
+        font-size: 25px;
+    }
+    .solve_mtd>p {
+        font-size: 18px;
+    }
+    .right>a {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width:768px) {
+    .qcloud_banner {
+        width: 100%;
+        height: 500px;
+        margin-top: 160px;
+        zoom: 0.32;
+    }
+    .solve_mtd>.tab_bar>li {
+        font-size: 12px;
+    }
+    .solve_mtd>h3 {
+        padding: 0 20px;
+        font-size: 18px;
+        text-align: center;
+        line-height: 30px;
+    }
+    .solve_mtd>p {
+        padding: 0 30px;
+        text-align: center;
+        font-size: 13px;
+    }
+    .solve_mtd>.tab_bar>li:first-child {
+        margin-left: 0px;
+    }
+}
