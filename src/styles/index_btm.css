@@ -1,0 +1,265 @@
+    @charset "utf-8";
+    /* 调整外部框样式开始*/
+    
+    .bandiv1 {
+        width: 100%;
+    }
+    
+    .bannerbtm {
+        width: 100%;
+        background-image: url(../images/img_yjp/imgxyang/pfoot-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow-x: hidden;
+        margin: 0 auto;
+    }
+    
+    .bannerbtm>.container {
+        margin: 0 auto;
+        padding: 0;
+    }
+    /* 调整外部框样式结束 */
+    /* 友情链接部分样式开始 */
+    
+    .bannerbtm>.container>h5 {
+        text-align: center;
+        font-size: 35px;
+        line-height: 80px;
+        color: #9a9a9a;
+        margin: 20px 0 0 0;
+    }
+    
+    .bannerbtm>.container>.btmul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        margin-top: 15px;
+    }
+    
+    .bannerbtm>.container>.btmul>li {
+        width: 167px;
+        text-align: center;
+        margin-bottom: 30px;
+        cursor: pointer;
+        position: relative;
+        border-left: 1px solid #9a9a9a;
+    }
+    
+    .bannerbtm>.container>.btmul>li>span {
+        font-size: 20px;
+        color: #9a9a9a;
+        margin-left: 5px;
+    }
+    /* 悬浮时显示状态 */
+    
+    .bannerbtm>.container>.btmul>li:hover>span {
+        color: #fff;
+    }
+    
+    .bannerbtm>.container>.btmul>li:hover>.imgbtm {
+        display: block;
+    }
+    /* 调整边线 */
+    
+    .bannerbtm>.container>.btmul>li:nth-child(1) {
+        border: none;
+    }
+    
+    .bannerbtm>.container>.btmul>li:nth-child(8) {
+        border: none;
+    }
+    /* 调整图片的位置 */
+    
+    .imgbtm {
+        position: absolute;
+        /* left: 20px; */
+        display: none;
+    }
+    
+    .bannerbtm>.container>.btmul>li:nth-child(1)>.imgbtm {
+        left: 21px;
+    }
+    
+    .bannerbtm>.container>.btmul>li:nth-child(2)>.imgbtm {
+        left: 16px;
+    }
+    
+    .bannerbtm>.container>.btmul>li:nth-child(3)>.imgbtm {
+        left: 16px;
+    }
+    
+    .bannerbtm>.container>.btmul>li:nth-child(4)>.imgbtm {
+        left: 27px;
+    }
+    
+    .bannerbtm>.container>.btmul>li:nth-child(5)>.imgbtm {
+        left: 27px;
+    }
+    
+    .bannerbtm>.container>.btmul>li:nth-child(6)>.imgbtm {
+        left: 40px;
+    }
+    
+    .bannerbtm>.container>.btmul>li:nth-child(7)>.imgbtm {
+        left: 40px;
+    }
+    
+    .bannerbtm>.container>.btmul>li:nth-child(8)>.imgbtm {
+        left: 48px;
+    }
+    
+    .bannerbtm>.container>.btmul>li:nth-child(9)>.imgbtm {
+        left: 24px;
+    }
+    
+    .bannerbtm>.container>.btmul>li:nth-child(10)>.imgbtm {
+        left: 39px;
+    }
+    
+    .bannerbtm>.container>.btmul>li:nth-child(11)>.imgbtm {
+        left: 20px;
+    }
+    
+    .bannerbtm>.container>.btmul>li:nth-child(12)>.imgbtm {
+        left: 23px;
+    }
+    
+    .bannerbtm>.container>.btmul>li:nth-child(13)>.imgbtm {
+        left: 31px;
+    }
+    
+    .bannerbtm>.container>.btmul>li:nth-child(14)>.imgbtm {
+        left: 27px;
+    }
+    /* 友情链接样式结束 */
+    /* 关于我们开始 */
+    
+    .bandiv1>.bannerbtm>.container>.row {
+        list-style: none;
+        margin: 0 auto;
+        margin-top: 20px;
+        border-top: 1px solid #666665;
+        border-bottom: 1px solid #666665;
+    }
+    
+    .bandiv1>.bannerbtm>.container>.row>li {
+        padding: 40px 0;
+    }
+    
+    .bandiv1>.bannerbtm>.container>.row>li>h4 {
+        font-size: 20px;
+        color: #9a9a9a;
+        margin: 0 0 10px 0;
+    }
+    
+    .bandiv1>.bannerbtm>.container>.row>li>span {
+        font-size: 12px;
+        color: #9a9a9a;
+        line-height: 25px;
+        display: block;
+    }
+    
+    .bandiv1>.bannerbtm>.container>.row>li>img {
+        padding-left: 180px;
+    }
+    /* 关于我们结束 */
+    /* 合作公司开始 */
+    
+    .bandiv1>.bannerbtm>.container>.company {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px 0;
+    }
+    
+    .bandiv1>.bannerbtm>.container>.company>li {
+        width: 25%;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+    }
+    
+    .bandiv1>.bannerbtm>.container>.company>li>a {
+        font-size: 12px;
+        color: rgb(154, 154, 154);
+        text-decoration: none;
+    }
+    
+    .bandiv1>.bannerbtm>.container>.company>li>a:hover {
+        color: rgb(255, 187, 0)
+    }
+    /* 合作公司结束 */
+    /* 公安备案号开始 */
+    
+    .bandiv1>.bannerbtm>.rowbottom {
+        background-color: rgb(255, 187, 0);
+    }
+    
+    .bandiv1>.bannerbtm>.rowbottom>.container {
+        padding: 30px 0;
+    }
+    
+    .bandiv1>.bannerbtm>.rowbottom>.container>a {
+        font-size: 16px;
+        text-align: center;
+        color: #000;
+    }
+    
+    .bandiv1>.bannerbtm>.rowbottom>.container>span {
+        font-size: 16px;
+        text-align: center;
+        color: #000;
+    }
+    /* 公安备案号结束 */
+    
+    @media(max-width:1300px) {
+        /* 关于我们开始 */
+        .bandiv1>.bannerbtm>.container>.row>li {
+            padding: 0;
+        }
+        .bandiv1>.bannerbtm>.container>.row {
+            width: auto;
+            position: relative;
+            margin: 0;
+        }
+        .bandiv1>.bannerbtm>.container>.row>li>h4 {
+            font-size: 16px;
+            color: #fff;
+            margin: 0;
+            font-weight: normal;
+            height: 30px;
+            line-height: 35px;
+        }
+        .bandiv1>.bannerbtm>.container>.row>li>span {
+            font-size: 12px;
+            color: #ccc;
+            line-height: 20px;
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .bandiv1>.bannerbtm>.container>.row>li>img {
+            padding: 0;
+            position: absolute;
+            right: 0;
+            top: 20px;
+            width: 80px;
+            height: 80px;
+        }
+        /* 关于我们结束 */
+        /* 公安备案号开始 */
+        .bandiv1>.bannerbtm>.rowbottom>.container {
+            padding: 5px 0;
+        }
+        .bandiv1>.bannerbtm>.rowbottom>.container>a {
+            font-size: 14px;
+            text-align: center;
+            color: #000;
+        }
+        .bandiv1>.bannerbtm>.rowbottom>.container>span {
+            font-size: 14px;
+            text-align: center;
+            color: #000;
+        }
+        /* 公安备案号结束 */
+    }
