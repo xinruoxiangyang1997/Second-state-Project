@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/reset_wj.css">
+    <link rel="stylesheet" href="../styles/youdao_wj.css">
+    <!--[if lt IE 9]>
+<script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+<body>
+    <!-- banner区域开始 -->
+    <div class="yd_banner">
+        <p>
+            <b>我们是用效果说话的实力偶像派</b>
+            <span>专注原生广告　推广也可以如此有趣</span>
+        </p>
+    </div>3300202956
+    <!-- banner区域结束 -->
+
+    <!-- 产品优势区域开始 -->
+    <div class="pdt_advantage">
+        <div class="container">
+            <div class="row">
+                <h5>
+                    <b class="ico1"></b> 产品优势
+                </h5>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <ul class="tab_bar">
+                        <li class="tab_active">原生向导优势</li>
+                        <li>多元样式并存</li>
+                        <li>精准技术传承</li>
+                        <li>海量优质资源</li>
+                    </ul>
+                </div>
+                <div class="content-info col-md-9 col-md-offset-1 content_on">
+                    <img src="../images/img_wj/youdao/cpys-1.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="content-info col-md-9 col-md-offset-1">
+                    <img src="../images/img_wj/youdao/cpys-2.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="content-info col-md-9 col-md-offset-1">
+                    <img src="../images/img_wj/youdao/cpys-3.jpg" alt="" class="img-responsive">
+                </div>
+                <div class="content-info col-md-9 col-md-offset-1">
+                    <img src="../images/img_wj/youdao/cpys-4.jpg" alt="" class="img-responsive">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 产品优势区域结束 -->
+
+    <!-- 平台资源区域开始 -->
+    <div class="plat_resource">
+        <div class="container">
+            <div class="row">
+                <h5>
+                    <b class="ico2"></b> 产品优势
+                </h5>
+                <img src="../images/img_wj/youdao/image.jpg" alt="" class="img-responsive">
+            </div>
+        </div>
+    </div>
+    <!-- 平台资源区域结束 -->
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        /*选项卡功能*/
+        $(function() {
+            var li = $('.pdt_advantage .tab_bar>li');
+            li.click(function() {
+                $(this).addClass('tab_active');
+                $(this).siblings().removeClass('tab_active');
+                var index = $(this).index();
+                var cont = $('.content-info').eq(index);
+
+                cont.addClass('content_on');
+                cont.siblings().removeClass('content_on');
+            });
+        });
+    </script>
+</body>
+
+</html>
