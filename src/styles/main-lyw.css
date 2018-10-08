@@ -1,0 +1,43 @@
+@charset "utf-8";
+* {
+  font-family: "黑体";
+  margin: 0;
+  padding: 0;
+}
+td,
+body,
+div,
+b,
+p,
+span,
+ul,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+i,
+u,
+dl,
+dd,
+dt,
+input {
+  margin: 0;
+  padding: 0;
+  word-break: break-all;
+  word-wrap: break-word;
+  font-size: 14px;
+  color: #000;
+  font-weight: normal;
+  font-style: normal;
+  list-style-type: none;
+  text-decoration: none;
+}
+a:link,
+a:visited,
+a:active,
+a:hover {
+  text-decoration: none;
+}
