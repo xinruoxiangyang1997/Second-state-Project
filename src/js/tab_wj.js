@@ -27,6 +27,7 @@ $(function() {
             onlineHref.attr('href', online);
         };
         $.getJSON('../js/qcloud_data_wj.json', function(responseText) {
+
             var video = responseText.video,
                 wechat = responseText.wechat_ecology,
                 commerce = responseText.commerce,
