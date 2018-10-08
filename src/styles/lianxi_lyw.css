@@ -1,0 +1,468 @@
+@charset "utf-8";
+.ban {
+  width: 100%;
+  height: 563px;
+  overflow: hidden;
+  position: relative;
+  background: url(../images/img-lyw/banner2.jpg) center center no-repeat;
+  text-align: center;
+}
+.ban:before {
+  display: inline-block;
+  content: "";
+  width: 0;
+  height: 100%;
+  vertical-align: middle;
+  font-size: 0;
+}
+.ban > p {
+  display: inline-block;
+  width: 439px;
+  height: 298px;
+  vertical-align: middle;
+  margin: 0 auto;
+  margin-top: 100px;
+  letter-spacing: 2px;
+  text-align: center;
+  background: url(../images/img-lyw/banner2-bg.png) center center no-repeat;
+  overflow: hidden;
+}
+.ban > p:before {
+  display: inline-block;
+  content: "";
+  width: 0;
+  height: 100%;
+  vertical-align: middle;
+  font-size: 0;
+}
+.ban > p > b {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 150px;
+  color: #fff;
+}
+.ban > p > span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 55px;
+  color: #fff;
+  text-align: left;
+  line-height: 60px;
+}
+.ban > p > span > u {
+  display: inline-block;
+  font-size: 45px;
+  color: #fff;
+  text-align: left;
+  line-height: 60px;
+}
+.city > .row > ul {
+  overflow: hidden;
+  list-style: none;
+  height: 100%;
+  background: white;
+  padding-left: 18%;
+  margin: 0;
+}
+.city > .row > ul > li {
+  float: left;
+  width: 120px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 25px;
+  margin-left: 20px;
+  padding: 0 20px;
+  background: rgba(101, 113, 126, 0.548);
+}
+.city > .row > ul > li > a {
+  color: rgba(0, 0, 0, 0.425);
+}
+.city > .row > ul > li > a > b {
+  font-size: 25px;
+  font-weight: 900;
+  color: #666;
+}
+.city > .row > ul > li:before {
+  content: "\e65b";
+  font-family: "iconfont" !important;
+  font-size: 25px;
+  line-height: 80px;
+  vertical-align: middle;
+  margin-right: 10px;
+  color: #909090;
+}
+.city > .row > div {
+  height: 700px;
+  border: 1px solid black;
+}
+.city > .row > div > .left {
+  height: 100%;
+  padding: 50px 50px;
+}
+.city > .row > div > .right {
+  height: 100%;
+  padding: 50px 50px;
+}
+.city > .row > div > .right > .shanghai {
+  width: 100%;
+  text-align: left;
+}
+.city > .row > div > .right > .shanghai > h5 {
+  font-size: 25px;
+  height: 50px;
+}
+.city > .row > div > .right > .shanghai > .gsdz {
+  overflow: hidden;
+  list-style: none;
+}
+.city > .row > div > .right > .shanghai > .gsdz > li {
+  overflow: hidden;
+}
+.city > .row > div > .right > .shanghai > .gsdz > li > b {
+  float: left;
+  font-size: 16px;
+  line-height: 35px;
+  color: #666;
+  font-weight: 800;
+}
+.city > .row > div > .right > .shanghai > .gsdz > li > span {
+  float: left;
+  font-size: 16px;
+  line-height: 30px;
+  color: #666;
+  width: 500px;
+}
+.city > .row > div > .right > .shanghai > h6 {
+  font-size: 20px;
+  margin: 50px 0 10px 0;
+  font-weight: bold;
+}
+.city > .row > div > .right > .shanghai > .fkfs {
+  overflow: hidden;
+}
+.city > .row > div > .right > .shanghai > .fkfs > li {
+  overflow: hidden;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 20px 0;
+}
+.city > .row > div > .right > .shanghai > .fkfs > li:last-child {
+  border-bottom: 0;
+}
+.city > .row > div > .right > .shanghai > .fkfs > li:last-child > b,
+.city > .row > div > .right > .shanghai > .fkfs > li:last-child span {
+  float: left;
+}
+.city > .row > div > .right > .shanghai > .fkfs > li:last-child > span {
+  line-height: 35px;
+  margin-left: 20px;
+  font-size: 17px;
+}
+.city > .row > div > .right > .nantong {
+  width: 100%;
+  text-align: left;
+}
+.city > .row > div > .right > .nantong > h5 {
+  font-size: 25px;
+  height: 50px;
+}
+.city > .row > div > .right > .nantong > .gsdz {
+  overflow: hidden;
+  list-style: none;
+}
+.city > .row > div > .right > .nantong > .gsdz > li {
+  overflow: hidden;
+}
+.city > .row > div > .right > .nantong > .gsdz > li > b {
+  float: left;
+  font-size: 16px;
+  line-height: 35px;
+  color: #666;
+  font-weight: 800;
+}
+.city > .row > div > .right > .nantong > .gsdz > li > span {
+  float: left;
+  font-size: 16px;
+  line-height: 30px;
+  color: #666;
+  width: 500px;
+}
+.city > .row > div > .right > .nantong > h6 {
+  font-size: 20px;
+  margin: 50px 0 10px 0;
+  font-weight: bold;
+}
+.city > .row > div > .right > .nantong > .fkfs {
+  overflow: hidden;
+}
+.city > .row > div > .right > .nantong > .fkfs > li {
+  overflow: hidden;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 20px 0;
+}
+.city > .row > div > .right > .nantong > .fkfs > li:last-child {
+  border-bottom: 0;
+}
+.city > .row > div > .right > .nantong > .fkfs > li:last-child > b,
+.city > .row > div > .right > .nantong > .fkfs > li:last-child span {
+  float: left;
+}
+.city > .row > div > .right > .nantong > .fkfs > li:last-child > span {
+  line-height: 35px;
+  margin-left: 20px;
+  font-size: 17px;
+}
+.city > .row > div > .right > .shenzhen {
+  width: 100%;
+  text-align: left;
+}
+.city > .row > div > .right > .shenzhen > h5 {
+  font-size: 25px;
+  height: 50px;
+}
+.city > .row > div > .right > .shenzhen > .gsdz {
+  overflow: hidden;
+  list-style: none;
+}
+.city > .row > div > .right > .shenzhen > .gsdz > li {
+  overflow: hidden;
+}
+.city > .row > div > .right > .shenzhen > .gsdz > li > b {
+  float: left;
+  font-size: 16px;
+  line-height: 35px;
+  color: #666;
+  font-weight: 800;
+}
+.city > .row > div > .right > .shenzhen > .gsdz > li > span {
+  float: left;
+  font-size: 16px;
+  line-height: 30px;
+  color: #666;
+  width: 500px;
+}
+.city > .row > div > .right > .shenzhen > h6 {
+  font-size: 20px;
+  margin: 50px 0 10px 0;
+  font-weight: bold;
+}
+.city > .row > div > .right > .shenzhen > .fkfs {
+  overflow: hidden;
+}
+.city > .row > div > .right > .shenzhen > .fkfs > li {
+  overflow: hidden;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 20px 0;
+}
+.city > .row > div > .right > .shenzhen > .fkfs > li > b,
+.city > .row > div > .right > .shenzhen > .fkfs > li span {
+  float: left;
+}
+.city > .row > div > .right > .shenzhen > .fkfs > li > span {
+  line-height: 35px;
+  margin-left: 20px;
+  font-size: 17px;
+}
+.city > .row > div > .right > .guangzhou {
+  width: 100%;
+  text-align: left;
+}
+.city > .row > div > .right > .guangzhou > h5 {
+  font-size: 25px;
+  height: 50px;
+}
+.city > .row > div > .right > .guangzhou > .gsdz {
+  overflow: hidden;
+  list-style: none;
+}
+.city > .row > div > .right > .guangzhou > .gsdz > li {
+  overflow: hidden;
+}
+.city > .row > div > .right > .guangzhou > .gsdz > li > b {
+  float: left;
+  font-size: 16px;
+  line-height: 35px;
+  color: #666;
+  font-weight: 800;
+}
+.city > .row > div > .right > .guangzhou > .gsdz > li > span {
+  float: left;
+  font-size: 16px;
+  line-height: 30px;
+  color: #666;
+  width: 500px;
+}
+.city > .row > div > .right > .guangzhou > h6 {
+  font-size: 20px;
+  margin: 50px 0 10px 0;
+  font-weight: bold;
+}
+.city > .row > div > .right > .guangzhou > .fkfs {
+  overflow: hidden;
+}
+.city > .row > div > .right > .guangzhou > .fkfs > li {
+  overflow: hidden;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 20px 0;
+}
+.city > .row > div > .right > .guangzhou > .fkfs > li > b,
+.city > .row > div > .right > .guangzhou > .fkfs > li span {
+  float: left;
+}
+.city > .row > div > .right > .guangzhou > .fkfs > li > span {
+  line-height: 35px;
+  margin-left: 20px;
+  font-size: 17px;
+}
+.city > .row > div > .right > .suzhou {
+  width: 100%;
+  text-align: left;
+}
+.city > .row > div > .right > .suzhou > h5 {
+  font-size: 25px;
+  height: 50px;
+}
+.city > .row > div > .right > .suzhou > .gsdz {
+  overflow: hidden;
+  list-style: none;
+}
+.city > .row > div > .right > .suzhou > .gsdz > li {
+  overflow: hidden;
+}
+.city > .row > div > .right > .suzhou > .gsdz > li > b {
+  float: left;
+  font-size: 16px;
+  line-height: 35px;
+  color: #666;
+  font-weight: 800;
+}
+.city > .row > div > .right > .suzhou > .gsdz > li > span {
+  float: left;
+  font-size: 16px;
+  line-height: 30px;
+  color: #666;
+  width: 500px;
+}
+.city > .row > div > .right > .suzhou > h6 {
+  font-size: 20px;
+  margin: 50px 0 10px 0;
+  font-weight: bold;
+}
+.city > .row > div > .right > .suzhou > .fkfs {
+  overflow: hidden;
+}
+.city > .row > div > .right > .suzhou > .fkfs > li {
+  overflow: hidden;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 20px 0;
+}
+.city > .row > div > .right > .suzhou > .fkfs > li > b,
+.city > .row > div > .right > .suzhou > .fkfs > li span {
+  float: left;
+}
+.city > .row > div > .right > .suzhou > .fkfs > li > span {
+  line-height: 35px;
+  margin-left: 20px;
+  font-size: 17px;
+}
+.city > .row > div > .right > .dongguan {
+  width: 100%;
+  text-align: left;
+}
+.city > .row > div > .right > .dongguan > h5 {
+  font-size: 25px;
+  height: 50px;
+}
+.city > .row > div > .right > .dongguan > .gsdz {
+  overflow: hidden;
+  list-style: none;
+}
+.city > .row > div > .right > .dongguan > .gsdz > li {
+  overflow: hidden;
+}
+.city > .row > div > .right > .dongguan > .gsdz > li > b {
+  float: left;
+  font-size: 16px;
+  line-height: 35px;
+  color: #666;
+  font-weight: 800;
+}
+.city > .row > div > .right > .dongguan > .gsdz > li > span {
+  float: left;
+  font-size: 16px;
+  line-height: 30px;
+  color: #666;
+  width: 500px;
+}
+.city > .row > div > .right > .dongguan > h6 {
+  font-size: 20px;
+  margin: 50px 0 10px 0;
+  font-weight: bold;
+}
+.city > .row > div > .right > .dongguan > .fkfs {
+  overflow: hidden;
+}
+.city > .row > div > .right > .dongguan > .fkfs > li {
+  overflow: hidden;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 20px 0;
+}
+.city > .row > div > .right > .dongguan > .fkfs > li > b,
+.city > .row > div > .right > .dongguan > .fkfs > li span {
+  float: left;
+}
+.city > .row > div > .right > .dongguan > .fkfs > li > span {
+  line-height: 35px;
+  margin-left: 20px;
+  font-size: 17px;
+}
+.city > .row > div > .right > .beijing {
+  width: 100%;
+  text-align: left;
+}
+.city > .row > div > .right > .beijing > h5 {
+  font-size: 25px;
+  height: 50px;
+}
+.city > .row > div > .right > .beijing > .gsdz {
+  overflow: hidden;
+  list-style: none;
+}
+.city > .row > div > .right > .beijing > .gsdz > li {
+  overflow: hidden;
+}
+.city > .row > div > .right > .beijing > .gsdz > li > b {
+  float: left;
+  font-size: 16px;
+  line-height: 35px;
+  color: #666;
+  font-weight: 800;
+}
+.city > .row > div > .right > .beijing > .gsdz > li > span {
+  float: left;
+  font-size: 16px;
+  line-height: 30px;
+  color: #666;
+  width: 500px;
+}
+.city > .row > div > .right > .beijing > h6 {
+  font-size: 20px;
+  margin: 50px 0 10px 0;
+  font-weight: bold;
+}
+.city > .row > div > .right > .beijing > .fkfs {
+  overflow: hidden;
+}
+.city > .row > div > .right > .beijing > .fkfs > li {
+  overflow: hidden;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 20px 0;
+}
+.city > .row > div > .right > .beijing > .fkfs > li > b,
+.city > .row > div > .right > .beijing > .fkfs > li span {
+  float: left;
+}
+.city > .row > div > .right > .beijing > .fkfs > li > span {
+  line-height: 35px;
+  margin-left: 20px;
+  font-size: 17px;
+}
