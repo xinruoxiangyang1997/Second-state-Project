@@ -29,6 +29,9 @@
 .fix-right div span {
     color: #fff;
     font-size: 12px;
+    display: block;
+    position: relative;
+    top: -10px;
 }
 
 .fix-right .bottom {
