@@ -191,21 +191,22 @@ b,strong,em,i,h1,h2,h3,h4{font-weight:normal;font-style:normal}
 
 /* PC端分辨率  大于1366px */
 @media screen and (max-width: 1366px){
-    .ul_box{
+    .main_1 .ul_box{
         position: absolute;
         width: 70%;
         height: 100%;
         background: rgba(28, 28, 28 , 0.5);
-        right: 0;
+        right: 0px;
         top: 50px;
         overflow: hidden;
-        padding: 50px 0 50px 50px;       
+        padding: 50px 0 50px 50px;
+              
     }
     .ul_box .ul_left{
         float: left;
         width: 450px;
         overflow: hidden;
-        margin-right: 20px;
+        
     }
     .ul_box .ul_right{
         float: left;
@@ -235,6 +236,10 @@ b,strong,em,i,h1,h2,h3,h4{font-weight:normal;font-style:normal}
         position: relative;
         background: url(../images/img_sgy/eg02/honors-bg.jpg) center center no-repeat;
     }
+    .main_1 .wapper{
+        padding: 0 15px;
+        width: auto;
+    }
     .main_1 h5{
         position: relative;
         display: block;
@@ -256,20 +261,77 @@ b,strong,em,i,h1,h2,h3,h4{font-weight:normal;font-style:normal}
         padding: 15px;
         overflow: hidden;
     }
-    .ul_box ul{
+    .ul_box .ul_left{
         float: none;
         width: auto;
         overflow: hidden;
         margin-right: 0px;
     }
-    .ul_box ul>li{
+    .ul_box .ul_right{
+        float: none;
+        width: auto;
+        overflow: hidden;
+        margin-right: 0px;
+    }
+    .ul_box .ul_left>li{
         width: auto;
         margin-bottom: 20px;
         overflow: hidden;
     }
-    
-
+    .ul_box .ul_right>li{
+        width: auto;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+    .ul_box .ul_left li>p{
+        float: left;
+        display: inline-block;
+        width: 70px;
+        height: 70px;
+        background: black;
+        line-height: 70px;
+        color: white;
+        text-align: center;
+        font-size: 25px;
+    }
+    .ul_box .ul_right li>p{
+        float: left;
+        display: inline-block;
+        width: 70px;
+        height: 70px;
+        background: black;
+        line-height: 70px;
+        color: white;
+        text-align: center;
+        font-size: 25px;
+    }
+    .ul_box .ul_left>li>ul{
+        float: right;
+        width: calc(100% - 85px);
+        overflow: hidden;
+    }
+    .ul_box .ul_right>li>ul{
+        float: right;
+        width: calc(100% - 85px);
+        overflow: hidden;
+    }
+    .main_1 .ul_box .ul_left>li>ul>li{
+       float: left;
+       width: 50%;
+       font-size: 14px;
+       color: #999;
+       line-height: 25px;
+    }
+    .main_1 .ul_box .ul_right>li>ul>li{
+        float: left;
+        width: 50%;
+        font-size: 14px;
+        color: #999;
+        line-height: 25px;
+     }
+   
 }
+/*大于767px*/
 @media screen and (max-width: 767px){
     .banner{
         width: 100%;
@@ -288,7 +350,69 @@ b,strong,em,i,h1,h2,h3,h4{font-weight:normal;font-style:normal}
         height:auto;
         overflow: hidden;
         position: relative;
-        background: url(../images/img_sgy/eg02/honors-bg.jpg) top center no-repeat;
+        background: url(../images/img_sgy/eg02/honors-bg.jpg) top center;
         position: relative;
     }
+    .main_1 .wapper{
+        padding: 0 15px;
+        width: auto;
+    }
+    .main_1 h5{
+        position: relative;
+        display: block;
+        font-size: 20px;
+        color: white;
+        width: auto;
+        text-align: center;
+        border-right: 0px;
+        padding-right: 0px;
+        margin: 10px 0;      
+    }
+    .main_1 .ul_box .ul_left>li>p{
+       float: none;
+       display: inline-block;
+       width: auto;
+       height: auto;
+       background: none;
+       line-height: 30px;
+       color: white;
+       text-align: center;
+       font-size: 25px;
+    }
+    .main_1 .ul_box .ul_right>li>p{
+        float: none;
+        display: inline-block;
+        width: auto;
+        height: auto;
+        background: none;
+        line-height: 30px;
+        color: white;
+        text-align: center;
+        font-size: 25px;
+     }
+    .main_1 .ul_box .ul_left>li>ul{
+        float: none;
+        width: auto;
+        overflow: hidden;
+    }
+    .main_1 .ul_box .ul_right>li>ul{
+        float: none;
+        width: auto;
+        overflow: hidden;
+    }
+    .main_1 .ul_box .ul_left>li>ul>li{
+        float: none;
+        width: auto;
+        font-size: 14px;
+        color: #999;
+        line-height: 20px;
+    }
+    .main_1 .ul_box .ul_right>li>ul>li{
+        float: none;
+        width: auto;
+        font-size: 14px;
+        color: #999;
+        line-height: 20px;
+    }
+    
 }  
