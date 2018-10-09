@@ -1,24 +1,24 @@
 {
-    "name": "second-state-project",
-    "version": "1.0.0",
-    "description": "  #\u0000 \u0000S\u0000e\u0000c\u0000o\u0000n\u0000d\u0000-\u0000s\u0000t\u0000a\u0000t\u0000e\u0000-\u0000P\u0000r\u0000o\u0000j\u0000e\u0000c\u0000t\u0000\r\u0000 \u0000",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/xinruoxiangyang1997/Second-state-Project.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/xinruoxiangyang1997/Second-state-Project/issues"
-    },
-    "homepage": "https://github.com/xinruoxiangyang1997/Second-state-Project#readme",
-    "dependencies": {
-        "bootstrap": "^3.3.7",
-        "jquery": "^3.3.1",
-        "owl.carousel": "^2.3.4"
-    }
+  "name": "second-state-project",
+  "version": "1.0.0",
+  "description": "  #\u0000 \u0000S\u0000e\u0000c\u0000o\u0000n\u0000d\u0000-\u0000s\u0000t\u0000a\u0000t\u0000e\u0000-\u0000P\u0000r\u0000o\u0000j\u0000e\u0000c\u0000t\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinruoxiangyang1997/Second-state-Project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xinruoxiangyang1997/Second-state-Project/issues"
+  },
+  "homepage": "https://github.com/xinruoxiangyang1997/Second-state-Project#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.3.1",
+    "owl.carousel": "^2.3.4"
+  }
 }

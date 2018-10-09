@@ -1,23 +1,15 @@
-@charset "utf-8";
-
-/* 导航条 */
-
-* {
+            @charset "utf-8";
+        /* 导航条 */
+        /* * {
     margin: 0;
     padding: 0;
-}
-
-
-/* 兼容移动端放置图片的padding间距，置为0 */
-
-.navbar-brand {
+} */
+        /* 兼容移动端放置图片的padding间距，置为0 */
+        /* .navbar-brand {
     padding: 0;
-}
-
-
-/* PC端三级导航条隐藏切换 */
-
-.drop1,
+} */
+        /* PC端三级导航条隐藏切换 */
+        /* .drop1,
 .drop2,
 .drop3 {
     position: relative;
@@ -35,11 +27,9 @@
     padding: 0;
     display: none;
 }
-
-
-/* 添加show样式 */
-
-.show {
+ */
+        /* 添加show样式 */
+        /* .show {
     display: block!important;
 }
 
@@ -48,29 +38,105 @@
 .submenu3>li {
     width: 80px;
     padding: 10px;
+} */
+        /* PC端三级导航条结束 */
+        /* .navbar-default {
+    border: none;
+    background-color: rgba(255, 187, 0, 0.9)!important;
 }
 
+nav a {
+    color: #fff!important;
+    padding: 0!important;
+}
 
-/* PC端三级导航条结束 */
+nav a:hover {
+    color: #000!important;
+    background-color: transparent!important;
+}
 
+.collapse {
+    padding-left: 20%!important;
+}
 
-/* 中小屏幕768px */
+.navbar-nav li {
+    line-height: 22px;
+}
 
-@media(min-width:768px) {
+.navbar-nav li a {
+    width: 120px;
+    font-size: 16px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+}
+
+.navbar-nav>li>a::after {
+    content: "-";
+    font-size: 18px;
+    color: #fff;
+}
+
+.navbar-nav>.lastli>a::after {
+    content: " "!important;
+}
+
+.dropdown-menu {
+    background-color: rgba(255, 187, 0, 0.9)!important;
+    padding: 0!important;
+    min-width: 120px!important;
+    border: none;
+}
+
+.dropdown-submenu {
+    background-color: rgba(255, 187, 0, 0.9);
+}
+
+.dropdown-submenu>li {
+    padding: 0 10px;
+}
+
+.dropdown-submenu>li>a {
+    letter-spacing: 0;
+    text-align: left;
+} */
+        /* 解决点击a标签hover时空白问题 */
+        /* .navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    background-color: rgba(255, 187, 0)!important;
+} */
+        /* 图片基础样式 */
+        /* nav .navbar {
+    position: relative;
+    padding: 0;
+}
+
+.img1 {
+    margin-top: 18%;
+}
+
+.img2 {
+    position: absolute;
+    top: -160%;
+    z-index: -3456;
+}
+ */
+        /* 中小屏幕768px */
+        /* @media(max-width:768px) {
     .navbar-nav>li>a {
         padding: 15px 10px;
     }
     .navbar {
         background-color: rgba(255, 187, 0, 0.9);
     }
-}
-
-
-/* 中等屏幕1169px */
-
-@media(max-width:1169px) {
+} */
+        /* 中等屏幕1169px */
+        /* @media(max-width:992px) {
     /* 移动端三级导航条，存在BUG,元素堆叠 */
-    /* .submenu1 {
+        /* .submenu1 {
         display: block;
     }
     .submenu2 {
@@ -78,20 +144,18 @@
     }
     .submenu3 {
         display: block;
-    } */
+    } 
     .img1 {
         width: 120px;
     }
     .navbar-header {
         background-color: rgba(255, 187, 0, 0.9);
     }
-}
-
-
-/* 大屏幕1170px */
-
-@media(min-width:1170px) {
-    .navbar-default {
+} */
+        /* 大屏幕1170px */
+        
+        @media(max-width:1300px) {
+            /* .navbar-default {
         border: none;
         background-color: rgba(255, 187, 0, 0.9);
     }
@@ -101,7 +165,6 @@
     }
     nav a:hover {
         color: #000!important;
-        background-color: transparent!important;
     }
     .collapse {
         padding-left: 20%!important;
@@ -139,13 +202,13 @@
         text-align: left;
     }
     /* 解决点击a标签hover时空白问题 */
-    .navbar-default .navbar-nav>.open>a,
+            /* .navbar-default .navbar-nav>.open>a,
     .navbar-default .navbar-nav>.open>a:focus,
     .navbar-default .navbar-nav>.open>a:hover {
-        background-color: transparent;
-    }
-    /* 图片基础样式 */
-    nav .navbar {
+        background-color: rgba(255, 187, 0, 1);
+    } */
+            /* 图片基础样式 */
+            /* nav .navbar {
         position: relative;
         padding: 0;
     }
@@ -156,5 +219,6 @@
         position: absolute;
         top: -160%;
         z-index: -3456;
-    }
+    } 
+  
 }
