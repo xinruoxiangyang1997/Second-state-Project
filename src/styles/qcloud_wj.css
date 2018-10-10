@@ -341,8 +341,9 @@
     padding-top: 10px;
 }
 
-.owl-carousel .owl-item span {
-    display: block;
+.owl-carousel .owl-item .des {
+    font-weight: normal;
+    display: inline-block;
     font-size: 14px;
     color: #373737;
     text-align: center;

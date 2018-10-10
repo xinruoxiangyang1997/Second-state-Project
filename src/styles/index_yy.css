@@ -1,4 +1,66 @@
 @charset "utf-8";
+.indexbase-empty {
+    width: 100%;
+    height: 50px;
+}
+
+
+/*欢迎样式*/
+
+.mask {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.login {
+    width: 375px;
+    height: 400px;
+    background-color: rgb(233, 172, 6);
+    position: relative;
+    margin: 100px auto;
+    z-index: 9999;
+    border-radius: 10px;
+}
+
+.login>span {
+    font-size: 15px;
+    color: #fff;
+}
+
+.login>h2 {
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.938);
+}
+
+.login>p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.938)
+}
+
+.login>img {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.login>h2,
+.login>p {
+    text-align: center;
+}
+
+.login>span {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+
 
 /* 框部样式 */
 
@@ -14,11 +76,11 @@
 
 /* 首页轮播图开始 */
 
-.carousel-indicators li {
+.indexbase-a .carousel-indicators li {
     border-radius: 0;
 }
 
-.carousel>.span1 {
+.indexbase-a .carousel>.span1 {
     position: absolute;
     left: 49.25%;
     color: #fff;
@@ -26,7 +88,7 @@
     z-index: 2000;
 }
 
-.carousel>.span2 {
+.indexbase-a .carousel>.span2 {
     position: absolute;
     left: 50.4%;
     color: #fff;
@@ -34,12 +96,12 @@
     z-index: 2000;
 }
 
-.carousel-indicators .active {
+.indexbase-a .carousel-indicators .active {
     background-color: #ffbb00;
     border: 1px solid #ffbb00;
 }
 
-.carousel-caption {
+.indexbase-a .carousel-caption {
     position: absolute;
     bottom: 0;
     left: -69%;
@@ -54,8 +116,337 @@
 
 /* 企业应用软件开始 */
 
+.indexbase-c {
+    margin: 0 auto;
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+.indexbase-c>.indexbase-ctitle {
+    overflow: hidden;
+}
+
+.indexbase-c>.indexbase-ctitle>h3 {
+    font-size: 30px;
+    color: #000;
+    float: left;
+    margin: 10px;
+}
+
+.indexbase-c>.indexbase-ctitle>ul {
+    list-style: none;
+    margin-top: 27px;
+    float: right;
+}
+
+.indexbase-c>.indexbase-ctitle>ul>li {
+    float: left;
+    padding: 0 7px;
+}
+
+.indexbase-c>.indexbase-ctitle>ul>li>a::after {
+    content: "/";
+    margin-left: 5px;
+}
+
+.indexbase-c>.indexbase-ctitle>ul>li:nth-child(8)>a::after {
+    content: none;
+    margin-left: 5px;
+}
+
+.indexbase-c>.indexbase-ctitle>ul>li>a {
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.indexbase-c>.indexbase-ctitle>ul>li>a:hover {
+    color: #ffbb00;
+}
+
+.indexbase-c .owl-loaded {
+    margin-top: 30px;
+    width: 1336px;
+    margin: 0 auto;
+}
+
+.indexbase-c .img-logo {
+    display: inline-block!important;
+    width: auto!important;
+}
+
+.indexbase-c .item a {
+    width: 334px;
+    float: left;
+    padding: 0 20px;
+}
+
+.indexbase-c .owl-carousel {
+    position: relative;
+    z-index: 1001;
+}
+
+.indexbase-c .item>a {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+}
+
+.indexbase-c .item>a>.itemtop>img {
+    display: block;
+}
+
+.indexbase-c .item>a>.itemtop>p {
+    margin: 10px 0;
+}
+
+.indexbase-c .item>a>.itemtop>p>b {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 30px;
+    margin-left: 10px;
+    color: #000;
+    font-weight: normal;
+}
+
+.indexbase-c .item>a>.itembtm {
+    opacity: 0;
+}
+
+.indexbase-c .item>a:hover .itembtm {
+    opacity: 1;
+}
+
+.indexbase-c .item>a:hover .itemtop>p {
+    border-bottom: 1px solid #ffbb00;
+}
+
+.indexbase-c .item>a:hover .itemtop>p>b {
+    color: #ffbb00;
+}
+
+.indexbase-c .item>a>.itembtm>p {
+    display: inline-block;
+    width: 270px;
+    height: 195px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+.indexbase-c .item>a>.itembtm>p>span {
+    display: inline-block;
+    margin-top: 13px;
+    width: 242px;
+    height: 168px;
+    border-radius: 0;
+    vertical-align: middle;
+    background-color: rgba(255, 187, 0, 0.8);
+}
+
+.indexbase-c .item>a>.itembtm>p>span>b {
+    display: inline-block;
+    vertical-align: middle;
+    color: #000;
+    line-height: 30px;
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+.indexbase-c .item>a>.itembtm {
+    position: absolute;
+    top: 13px;
+    left: 32px;
+}
+
+.indexbase-c .owl-prev span {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-image: url(../images/img_yjp/logoyang/cp-arr-l.png);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    left: 0.3%;
+    top: 30%;
+    color: transparent;
+}
+
+.indexbase-c .owl-next span {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-image: url(../images/img_yjp/logoyang/cp-arr-r.png);
+    background-repeat: no-repeat;
+    background-size: 16px;
+    right: -3.5%;
+    top: 30%;
+    color: transparent;
+}
+
+.indexbase-c .owl-carousel .owl-dots {
+    display: none;
+}
+
 
 /* 企业应用软件结束 */
+
+
+/* 网络营销服务开始 */
+
+.indexbase-bwhole {
+    width: 100%;
+    background-image: url(../images/img_yjp/imgxyang/wlyx-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.indexbase-b {
+    width: 1300px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.indexbase-b>.indexbase-btitle {
+    width: 1300px;
+    overflow: hidden;
+    padding-top: 60px;
+    margin-bottom: 15px;
+}
+
+.indexbase-b>.indexbase-btitle>h3 {
+    font-size: 30px;
+    color: #fff;
+    float: left;
+    margin: 10px;
+}
+
+.indexbase-b>.indexbase-btitle>ul {
+    list-style: none;
+    margin-top: 27px;
+    float: right;
+}
+
+.indexbase-b>.indexbase-btitle>ul>li {
+    float: left;
+    padding: 0 7px;
+}
+
+.indexbase-b>.indexbase-btitle>ul>li>a::after {
+    content: "/";
+    margin-left: 5px;
+}
+
+.indexbase-b>.indexbase-btitle>ul>li:nth-child(8)>a::after {
+    content: none;
+    margin-left: 5px;
+}
+
+.indexbase-b>.indexbase-btitle>ul>li>a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.indexbase-b>.indexbase-btitle>ul>li>a:hover {
+    color: #ffbb00;
+}
+
+.indexbase-b .owl-carousel {
+    margin-top: 30px;
+    height: 600px;
+}
+
+.indexbase-b .owl-item>.item>ul {
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+}
+
+.indexbase-b .owl-item>.item>ul>li {
+    width: 100%;
+    height: 202px;
+    cursor: pointer;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.indexbase-b .owl-item>.item>ul>li>p {
+    width: 100px;
+    height: 100px;
+    background: #ffbb00;
+    border: 1px solid #ffbb00;
+    text-align: center;
+    transition: all 0.3s;
+    margin-bottom: 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.indexbase-b .owl-item>.item>ul>li>p>a>img {
+    border: 0;
+}
+
+.item1-right {
+    width: 248px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.item1-right>h5 {
+    height: 60px;
+    width: 200px;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+}
+
+.item1-right>h5 b {
+    display: inline-block;
+    font-size: 22px;
+    line-height: 60px;
+    color: #fff;
+}
+
+.item1-right ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.indexbase-b .owl-carousel .owl-nav {
+    display: block!important;
+}
+
+.indexbase-b .owl-carousel .owl-nav span {
+    color: #fff;
+    font-size: 40px;
+}
+
+.indexbase-b .owl-carousel .owl-nav .owl-prev span {
+    position: absolute;
+    bottom: 0%;
+    left: 46%;
+}
+
+.indexbase-b .owl-carousel .owl-nav .owl-prev span::after {
+    content: '|';
+    position: absolute;
+    font-size: 20px;
+    bottom: 22%;
+    left: 212%;
+}
+
+.indexbase-b .owl-carousel .owl-nav .owl-next span {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+}
+
+
+/* 网络营销服务结束*/
 
 
 /* 网络基础服务开始 */
@@ -252,6 +643,7 @@
 
 .indexbase-e>ul>li:hover span {
     background-color: #ffbb00;
+    border: none;
 }
 
 .indexbase-e>ul>li:hover h4 {
@@ -260,6 +652,42 @@
 
 .indexbase-e>ul>li:hover b {
     color: #ffbb00;
+}
+
+.indexbase-e>ul>li:hover .chaoyu-ico1 {
+    background-image: url(../images/img_yjp/logoyang/chy-ico1-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.indexbase-e>ul>li:hover .chaoyu-ico2 {
+    background-image: url(../images/img_yjp/logoyang/chy-ico2-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.indexbase-e>ul>li:hover .chaoyu-ico3 {
+    background-image: url(../images/img_yjp/logoyang/chy-ico3-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.indexbase-e>ul>li:hover .chaoyu-ico4 {
+    background-image: url(../images/img_yjp/logoyang/chy-ico4-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.indexbase-e>ul>li:hover .chaoyu-ico5 {
+    background-image: url(../images/img_yjp/logoyang/chy-ico5-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.indexbase-e>ul>li:hover .chaoyu-ico6 {
+    background-image: url(../images/img_yjp/logoyang/chy-ico6-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 
@@ -434,8 +862,20 @@
     background-repeat: no-repeat;
 }
 
+.guest-logo-1:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-1-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .guest-logo-2 {
     background: url(../images/img_yjp/logoyang/guest-logo-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.guest-logo-2:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-2-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -446,8 +886,20 @@
     background-repeat: no-repeat;
 }
 
+.guest-logo-3:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-3-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .guest-logo-4 {
     background: url(../images/img_yjp/logoyang/guest-logo-4.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.guest-logo-4:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-4-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -458,8 +910,20 @@
     background-repeat: no-repeat;
 }
 
+.guest-logo-5:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-5-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .guest-logo-6 {
     background: url(../images/img_yjp/logoyang/guest-logo-6.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.guest-logo-6:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-6-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -470,8 +934,20 @@
     background-repeat: no-repeat;
 }
 
+.guest-logo-7:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-7-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .guest-logo-8 {
     background: url(../images/img_yjp/logoyang/guest-logo-8.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.guest-logo-8:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-8-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -482,8 +958,20 @@
     background-repeat: no-repeat;
 }
 
+.guest-logo-9:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-9-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .guest-logo-10 {
     background: url(../images/img_yjp/logoyang/guest-logo-10.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.guest-logo-10:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-10-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -494,8 +982,20 @@
     background-repeat: no-repeat;
 }
 
+.guest-logo-11:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-11-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .guest-logo-12 {
     background: url(../images/img_yjp/logoyang/guest-logo-12.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.guest-logo-12:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-12-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -506,8 +1006,20 @@
     background-repeat: no-repeat;
 }
 
+.guest-logo-13:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-13-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .guest-logo-14 {
     background: url(../images/img_yjp/logoyang/guest-logo-14.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.guest-logo-14:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-14-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -518,8 +1030,20 @@
     background-repeat: no-repeat;
 }
 
+.guest-logo-15:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-15-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .guest-logo-16 {
     background: url(../images/img_yjp/logoyang/guest-logo-16.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.guest-logo-16:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-16-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -530,8 +1054,20 @@
     background-repeat: no-repeat;
 }
 
+.guest-logo-17:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-17-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .guest-logo-18 {
     background: url(../images/img_yjp/logoyang/guest-logo-18.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.guest-logo-18:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-18-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -542,8 +1078,20 @@
     background-repeat: no-repeat;
 }
 
+.guest-logo-19:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-19-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .guest-logo-20 {
     background: url(../images/img_yjp/logoyang/guest-logo-20.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.guest-logo-20:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-20-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -554,8 +1102,20 @@
     background-repeat: no-repeat;
 }
 
+.guest-logo-21:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-21-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .guest-logo-22 {
     background: url(../images/img_yjp/logoyang/guest-logo-22.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.guest-logo-22:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-22-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -566,8 +1126,20 @@
     background-repeat: no-repeat;
 }
 
+.guest-logo-23:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-23-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .guest-logo-p1 {
     background: url(../images/img_yjp/logoyang/guest-logo-p1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.guest-logo-p1:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-p1-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -578,8 +1150,20 @@
     background-repeat: no-repeat;
 }
 
+.guest-logo-p2:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-p2-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .guest-logo-p3 {
     background: url(../images/img_yjp/logoyang/guest-logo-p3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.guest-logo-p3:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-p3-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -590,8 +1174,20 @@
     background-repeat: no-repeat;
 }
 
+.guest-logo-p4:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-p4-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .guest-logo-p5 {
     background: url(../images/img_yjp/logoyang/guest-logo-p5.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.guest-logo-p5:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-p5-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -602,8 +1198,20 @@
     background-repeat: no-repeat;
 }
 
+.guest-logo-p6:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-p6-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .guest-logo-p7 {
     background: url(../images/img_yjp/logoyang/guest-logo-p7.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.guest-logo-p7:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-p7-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -614,8 +1222,20 @@
     background-repeat: no-repeat;
 }
 
+.guest-logo-p8:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-p8-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .guest-logo-p9 {
     background: url(../images/img_yjp/logoyang/guest-logo-p9.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.guest-logo-p9:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-p9-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -626,8 +1246,20 @@
     background-repeat: no-repeat;
 }
 
+.guest-logo-p10:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-p10-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .guest-logo-p11 {
     background: url(../images/img_yjp/logoyang/guest-logo-p11.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.guest-logo-p11:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-p11-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -638,8 +1270,20 @@
     background-repeat: no-repeat;
 }
 
+.guest-logo-p12:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-p12-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .guest-logo-p13 {
     background: url(../images/img_yjp/logoyang/guest-logo-p13.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.guest-logo-p13:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-p13-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -650,8 +1294,20 @@
     background-repeat: no-repeat;
 }
 
+.guest-logo-p14:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-p14-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .guest-logo-p15 {
     background: url(../images/img_yjp/logoyang/guest-logo-p15.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.guest-logo-p15:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-p15-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -662,8 +1318,20 @@
     background-repeat: no-repeat;
 }
 
+.guest-logo-p16:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-p16-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .guest-logo-p17 {
     background: url(../images/img_yjp/logoyang/guest-logo-p17.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.guest-logo-p17:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-p17-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -674,8 +1342,20 @@
     background-repeat: no-repeat;
 }
 
+.guest-logo-p18:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-p18-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .guest-logo-p19 {
     background: url(../images/img_yjp/logoyang/guest-logo-p19.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.guest-logo-p19:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-p19-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -686,8 +1366,20 @@
     background-repeat: no-repeat;
 }
 
+.guest-logo-p20:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-p20-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .guest-logo-p21 {
     background: url(../images/img_yjp/logoyang/guest-logo-p21.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.guest-logo-p21:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-p21-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -698,8 +1390,20 @@
     background-repeat: no-repeat;
 }
 
+.guest-logo-p22:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-p22-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 .guest-logo-p23 {
     background: url(../images/img_yjp/logoyang/guest-logo-p23.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.guest-logo-p23:hover {
+    background: url(../images/img_yjp/logoyang/guest-logo-p23-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
 }
@@ -711,16 +1415,30 @@
 }
 
 .guest-logo-24 a {
-    display: inline-block;
+    position: relative;
     height: 105px;
     line-height: 105px;
     color: #333;
     text-decoration: none;
 }
 
-.guest-logo-24 b {
-    display: inline-block;
-    font-size: 50px;
+.guest-logo-24 a .glyphicon-chevron-left {
+    left: 80px;
+    top: 54px;
+}
+
+.guest-logo-24 a .glyphicon-chevron-right {
+    left: 130px;
+    top: 54px;
+}
+
+.guest-logo-24 a span {
+    color: #000;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 1);
+}
+
+.guest-logo-24 a span::before {
+    color: #111;
 }
 
 
@@ -740,6 +1458,9 @@
 /* 大屏幕（大桌面显示器，最大1200px） */
 
 @media (max-width: 1200px) {
+    .mask {
+        display: none!important;
+    }
     .index {
         width: auto;
     }
@@ -748,6 +1469,42 @@
     }
     .carousel-indicators {
         bottom: -10px!important;
+    }
+    .indexbase-c {
+        width: auto;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .indexbase-ctitle {
+        width: auto;
+        margin: 0 auto;
+        overflow: hidden;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        line-height: 35px;
+    }
+    .indexbase-c>.indexbase-ctitle>h3 {
+        display: inline-block;
+        font-size: 22px;
+        color: #000;
+    }
+    .indexbase-ctitle>ul {
+        display: none;
+    }
+    .indexbase-c .owl-carousel {
+        width: auto;
+        margin-top: 15px;
+    }
+    .indexbase-c .owl-carousel .owl-nav {
+        display: none;
+    }
+    .indexbase-c .owl-carousel .owl-dots {
+        display: block;
+    }
+    .indexbase-b {
+        width: auto;
+        margin: 0 auto;
+        overflow: hidden;
     }
     .indexbase-d {
         margin: 0;
@@ -987,5 +1744,16 @@
     }
     .guest-logo-24>b {
         font-size: 16px;
+    }
+    .indexbase-b .owl-carousel .owl-nav {
+        display: none!important;
+    }
+    .guest-logo-24 a .glyphicon-chevron-left {
+        left: 31px;
+        top: 54px;
+    }
+    .guest-logo-24 a .glyphicon-chevron-right {
+        left: 60px;
+        top: 54px;
     }
 }
