@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <div class="top"></div>
     <!-- banner区域开始 -->
     <div class="yd_banner">
         <p>
@@ -116,10 +117,19 @@
         </div>
     </div>
     <!-- 解决方案区域结束 -->
+    <div class="bottom"></div>
+    <div class="flex-right"></div>
     <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <script src="../js/youdao_wj.js"></script>
+    <script>
+        $(function() {
+            $('.flex-right').load('http://10.31.157.53:8080/myProject/Second-state-Project/src/html/fix-right.html');
+            $('.bottom').load('http://10.31.157.53:8080/myProject/Second-state-Project/src/html/index_btm.html');
+            $('.top').load('http://10.31.157.53:8080/myProject/Second-state-Project/src/html/index_top.html')
+        });
+    </script>
 </body>
 
 </html>
