@@ -5,6 +5,7 @@
 .manage_banner {
     width: 100%;
     height: 610px;
+    margin-top: 50px;
     overflow: hidden;
     position: relative;
     background: url(../images/img_wj/kgw/banner1.jpg) no-repeat top center;
@@ -390,6 +391,7 @@
 
 @media (max-width:768px) {
     .manage_banner {
+        margin-top: 50px;
         width: 100%;
         height: 250px;
         overflow: hidden;

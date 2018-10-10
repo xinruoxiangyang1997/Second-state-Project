@@ -16,6 +16,63 @@
 }
 
 
+/*欢迎样式*/
+
+.mask {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.login {
+    width: 375px;
+    height: 400px;
+    background-color: rgb(233, 172, 6);
+    position: relative;
+    margin: 100px auto;
+    z-index: 9999;
+    border-radius: 10px;
+}
+
+.login>span {
+    font-size: 15px;
+    color: #fff;
+}
+
+.login>h2 {
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.938);
+}
+
+.login>p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.938)
+}
+
+.login>img {
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.login>h2,
+.login>p {
+    text-align: center;
+}
+
+.login>span {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+
+
 /* 框部样式 */
 
 .index {
@@ -1411,7 +1468,10 @@
 
 /* 大屏幕（大桌面显示器，最大1200px） */
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
+    .mask {
+        display: none!important;
+    }
     .index {
         width: auto;
     }
