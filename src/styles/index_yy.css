@@ -155,6 +155,11 @@
     padding: 0 20px;
 }
 
+.indexbase-c .owl-carousel {
+    position: relative;
+    z-index: 1001;
+}
+
 .indexbase-c .item>a {
     display: block;
     position: relative;
