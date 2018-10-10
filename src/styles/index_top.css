@@ -1,160 +1,219 @@
-@charset "utf-8";
-
-/* 导航条 */
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-
-/* 兼容移动端放置图片的padding间距，置为0 */
-
-.navbar-brand {
-    padding: 0;
-}
-
-
-/* PC端三级导航条隐藏切换 */
-
-.drop1,
-.drop2,
-.drop3 {
-    position: relative;
-    width: 120px;
-}
-
-.submenu1,
-.submenu2,
-.submenu3 {
-    width: 80px;
-    position: absolute;
-    list-style: none;
-    left: 120px;
-    top: 0px;
-    padding: 0;
-    display: none;
-}
-
-
-/* 添加show样式 */
-
-.show {
-    display: block!important;
-}
-
-.submenu1>li,
-.submenu2>li,
-.submenu3>li {
-    width: 80px;
-    padding: 10px;
-}
-
-
-/* PC端三级导航条结束 */
-
-
-/* 中小屏幕768px */
-
-@media(min-width:768px) {
-    .navbar-nav>li>a {
-        padding: 15px 10px;
-    }
-    .navbar {
+    @charset "utf-8";
+    /* 导航条基础样式 */
+    
+    .navbar .container-fluid {
         background-color: rgba(255, 187, 0, 0.9);
     }
-}
-
-
-/* 中等屏幕1169px */
-
-@media(max-width:1169px) {
-    /* 移动端三级导航条，存在BUG,元素堆叠 */
-    /* .submenu1 {
-        display: block;
+    
+    .navbar-collapse {
+        width: auto;
+        height: auto;
     }
-    .submenu2 {
-        display: block;
+    
+    .navbar-collapse {
+        background-color: rgba(5, 5, 5, 0.9);
     }
-    .submenu3 {
-        display: block;
-    } */
-    .img1 {
-        width: 120px;
-    }
-    .navbar-header {
-        background-color: rgba(255, 187, 0, 0.9);
-    }
-}
-
-
-/* 大屏幕1170px */
-
-@media(min-width:1170px) {
-    .navbar-default {
-        border: none;
-        background-color: rgba(255, 187, 0, 0.9);
-    }
-    nav a {
-        color: #fff!important;
+    /* 导航条图标 */
+    
+    .navbar-brand {
         padding: 0!important;
+        width: 290px;
+        height: 0px!important;
     }
-    nav a:hover {
-        color: #000!important;
-        background-color: transparent!important;
-    }
-    .collapse {
-        padding-left: 20%!important;
-    }
-    .navbar-nav li a {
+    /* 三级导航切换 */
+    
+    .drop1,
+    .drop2,
+    .drop3 {
+        position: relative;
         width: 120px;
-        font-size: 16px;
-        line-height: 40px;
-        display: inline-block;
-        text-align: center;
-        letter-spacing: 0.2em;
+        margin-top: 0px!important;
     }
-    .navbar-nav>li::after {
-        content: "-";
-        font-size: 18px;
-        color: #fff;
-    }
-    .navbar-nav>.lastli::after {
-        content: " "!important;
-    }
+    
     .dropdown-menu {
         background-color: rgba(255, 187, 0, 0.9);
-        padding: 0;
-        min-width: 120px;
-        border: none;
     }
-    .dropdown-submenu {
+    
+    .dropdown-menu>li>a:hover {
         background-color: rgba(255, 187, 0, 0.9);
     }
-    .dropdown-submenu>li {
-        padding: 0 10px;
+    
+    .drop1>.dropdown-toggle,
+    .drop2>.dropdown-toggle,
+    .drop3>.dropdown-toggle {
+        padding-left: 5px;
     }
-    .dropdown-submenu>li>a {
-        letter-spacing: 0;
-        text-align: left;
+    /* 添加show样式 */
+    
+    .show {
+        display: block;
     }
-    /* 解决点击a标签hover时空白问题 */
-    .navbar-default .navbar-nav>.open>a,
-    .navbar-default .navbar-nav>.open>a:focus,
-    .navbar-default .navbar-nav>.open>a:hover {
-        background-color: transparent;
-    }
-    /* 图片基础样式 */
-    nav .navbar {
-        position: relative;
+    
+    .submenu1>li,
+    .submenu2>li,
+    .submenu3>li {
+        width: 80px;
         padding: 0;
     }
-    .img1 {
-        margin-top: 18%;
+    
+    nav a {
+        color: #fff!important;
     }
-    .img2 {
-        position: absolute;
-        top: -160%;
-        z-index: -3456;
+    
+    nav a:hover {
+        color: #000!important;
     }
-}
+    
+    .empty {
+        width: 100%;
+        height: 50px;
+    }
+    /* 大屏幕1300px */
+    
+    @media(min-width:1300px) {
+        .navbar-collapse {
+            width: 1300px;
+            height: auto;
+            margin: 0 auto;
+        }
+        .navbar-collapse {
+            background-color: rgba(255, 187, 0, 0.9);
+        }
+        .submenu1,
+        .submenu2,
+        .submenu3 {
+            width: 80px;
+            position: absolute;
+            list-style: none;
+            left: 120px;
+            top: 0px;
+            padding: 0;
+            display: none;
+        }
+        .navbar-nav {
+            float: right!important;
+        }
+        .navbar-nav>li a {
+            width: 130px;
+            font-size: 16px;
+            line-height: 40px;
+            display: inline-block;
+            text-align: center;
+            letter-spacing: 0.1em;
+            /* margin-top: 5px; */
+            padding-top: 10px;
+            padding-bottom: 0;
+            padding-left: 8px;
+            padding-right: 8px;
+        }
+        /* 伪类符号 */
+        .navbar-nav>li>a::after {
+            content: "-";
+            font-size: 18px;
+            color: #fff;
+            position: absolute;
+            right: 0;
+        }
+        .navbar-nav>.lastli>a::after {
+            content: " "!important;
+        }
+        .dropdown-menu {
+            background-color: rgba(255, 187, 0, 0.9)!important;
+            min-width: 120px!important;
+            border: none;
+            padding: 0!important;
+        }
+        .dropdown-menu li {
+            background: rgba(255, 187, 0, 0.9);
+        }
+        .dropdown-menu a {
+            background: rgba(255, 187, 0, 0.9);
+        }
+        .dropdown-menu li a:hover {
+            background-color: rgba(255, 187, 0, 0.9)!important;
+        }
+        .dropdown-menu:hover {
+            background-color: rgba(255, 187, 0, 0.9)!important;
+        }
+        .open {
+            height: 110px;
+        }
+        .drop1,
+        .drop2,
+        .drop3 {
+            height: 25px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding-left: 5px;
+        }
+        .drop1>.dropdown-toggle,
+        .drop2>.dropdown-toggle,
+        .drop3>.dropdown-toggle {
+            width: 0;
+            padding: 0;
+            margin: 0;
+        }
+        .menu1 li a {
+            padding-left: 5px;
+        }
+        .menu2 li a {
+            padding-left: 5px;
+        }
+        .dropdown-submenu {
+            background-color: rgba(255, 187, 0, 0.9);
+            border-radius: 5px;
+        }
+        .dropdown-submenu>li {
+            padding: 0 10px;
+            background: rgba(255, 187, 0, 0.9);
+        }
+        .dropdown-submenu>li>a {
+            letter-spacing: 0;
+            text-align: left;
+            width: 64px;
+            height: auto;
+            text-decoration: none;
+            color: #333;
+            padding: 0;
+            margin: 0;
+            background: rgba(255, 187, 0, 0.9);
+        }
+        .open {
+            height: 50px;
+        }
+        .dropdown-toggle {
+            padding-top: 16px;
+            padding-bottom: 9px;
+            margin-top: 0;
+            height: 0;
+        }
+        /* 解决点击a标签hover时空白问题 */
+        .navbar-default .navbar-nav>.open>a,
+        .navbar-default .navbar-nav>.open>a:focus,
+        .navbar-default .navbar-nav>.open>a:hover {
+            background-color: rgba(255, 187, 0, 1)!important;
+        }
+        nav .navbar {
+            position: relative;
+            padding: 0;
+        }
+        .img1 {
+            margin-top: 7%;
+            margin-left: 5%;
+        }
+        .img2 {
+            position: absolute;
+            top: -174%;
+            z-index: -3456;
+        }
+        nav a {
+            color: #fff!important;
+        }
+        nav a:hover {
+            color: #000!important;
+        }
+        .empty {
+            width: 100%;
+            height: 50px;
+        }
+    }
