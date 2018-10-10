@@ -28,7 +28,6 @@
         position: relative;
         width: 120px;
         margin-top: 0px!important;
-        padding-top: 10px;
     }
     
     .dropdown-menu {
@@ -69,6 +68,7 @@
         width: 100%;
         height: 50px;
     }
+    /* 大屏幕1300px */
     
     @media(min-width:1300px) {
         .navbar-collapse {
@@ -101,7 +101,7 @@
             text-align: center;
             letter-spacing: 0.1em;
             /* margin-top: 5px; */
-            padding-top: 5px;
+            padding-top: 10px;
             padding-bottom: 0;
             padding-left: 8px;
             padding-right: 8px;
@@ -203,7 +203,7 @@
         }
         .img2 {
             position: absolute;
-            top: -160%;
+            top: -174%;
             z-index: -3456;
         }
         nav a {

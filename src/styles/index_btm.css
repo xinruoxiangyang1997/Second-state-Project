@@ -213,7 +213,7 @@
     }
     /* 公安备案号结束 */
     
-    @media(max-width:1300px) {
+    @media(max-width:992px) {
         /* 关于我们开始 */
         .bandiv1>.bannerbtm>.container>.row>li {
             padding: 0;
@@ -222,6 +222,10 @@
             width: auto;
             position: relative;
             margin: 0;
+            padding: 0;
+        }
+        .btmul>.row {
+            padding: 0;
         }
         .bandiv1>.bannerbtm>.container>.row>li>h4 {
             font-size: 16px;
