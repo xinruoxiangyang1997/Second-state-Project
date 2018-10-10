@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <div id="top"></div>
     <div class="container-fluid banner">
         <img class="img-responsive" src="../images/img_zj/video-banner.jpg" alt="">
     </div>
@@ -669,9 +670,20 @@
             </div>
         </div>
     </div>
-    <script src="../../node_modules/_jquery@3.3.1@jquery/dist/jquery.min.js"></script>
+    <div id="right">
+
+    </div>
+    <div id="btm"></div>
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="../js/companyQQ.js"></script>
+    <script>
+        $(function() {
+            $("#right").load("http://10.31.157.30:8080/myProject/Second-state-Project/src/html/fix-right.html");
+            $("#btm").load("http://10.31.157.30:8080/myProject/Second-state-Project/src/html/index_btm.html");
+            $("#top").load("http://10.31.157.30:8080/myProject/Second-state-Project/src/html/index_top.html");
+        })
+    </script>
 </body>
 
 </html>
