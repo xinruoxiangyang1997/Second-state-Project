@@ -1,4 +1,27 @@
 $(function() {
-    // $(".indexbase-btm").load("http://10.31.157.28:8080/Project_YY/Second-state-Project/src/html/index_btm.html");
-    // $(".indexbase-fix").load("http://10.31.157.28:8080/Project_YY/Second-state-Project/src/html/fix-right.html");
+    $('.yximglogo1').hover(function() {
+        $(".itemul1").stop().slideToggle("normal");
+    });
+    $('.yximglogo2').hover(function() {
+        $(".itemul2").stop().slideToggle("normal");
+    });
+    $('.yximglogo3').hover(function() {
+        $(".itemul3").stop().slideToggle("normal");
+    });
+    $('.yximglogo4').hover(function() {
+        $(".itemul4").stop().slideToggle("normal");
+    });
+    $('.yximglogo5').hover(function() {
+        $(".itemul5").stop().slideToggle("normal");
+    });
+    $('.yximglogo6').hover(function() {
+        $(".itemul6").stop().slideToggle("normal");
+    });
+    $('.yximglogo7').hover(function() {
+        $(".itemul7").stop().slideToggle("normal");
+    });
+    $('.yximglogo8').hover(function() {
+        $(".itemul8").stop().slideToggle("normal");
+    });
+
 })

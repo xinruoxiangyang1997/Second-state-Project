@@ -4,6 +4,17 @@
     height: 50px;
 }
 
+.itemul1,
+.itemul2,
+.itemul3,
+.itemul4,
+.itemul5,
+.itemul6,
+.itemul7,
+.itemul8 {
+    display: none;
+}
+
 
 /* 框部样式 */
 
@@ -1400,7 +1411,7 @@
 
 /* 大屏幕（大桌面显示器，最大1200px） */
 
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
     .index {
         width: auto;
     }
