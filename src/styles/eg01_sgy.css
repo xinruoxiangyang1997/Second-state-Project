@@ -4,13 +4,13 @@
     padding: 0;
     font-family: "黑体";
 }
-li{
+li,u{
     list-style:none;
   }
 a {
     text-decoration:none;
   }
-b,strong,em,i,h1,h2,h3,h4{font-weight:normal;font-style:normal}
+b,strong,em,i,h1,h2,h3,h4,u{font-weight:normal;font-style:normal}
 
 
 
@@ -167,6 +167,173 @@ b,strong,em,i,h1,h2,h3,h4{font-weight:normal;font-style:normal}
     top: 50px;
     font-size: 30px;
 }
+.flx{
+    opacity: 1;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+.flx_box{
+    overflow: hidden;
+    position: relative;
+    width: 6240px;
+    height: 812px;
+}
+.flx_box .zz_box{
+    width: 1040px;
+ }
+
+.picScroll-left .bd {
+    width: 1040px;
+    height: 812px;
+}
+
+.picScroll-left .bd ul {
+    overflow: hidden;
+    zoom: 1;
+}
+
+.picScroll-left .bd ul li {
+    float: left;
+    display: inline;
+    overflow: hidden;
+    text-align: center;
+    height: 812px;
+    width: 1040px;
+}
+
+.picScroll-left .bd ul li .zz_1 {
+    width: 1040px;
+    height: 812px;
+    position: relative;
+    float: left;
+    text-align: center;
+}
+
+.picScroll-left .bd ul li .itme .itm {
+    width: auto;
+    height: 100%;
+}
+
+.picScroll-left .bd ul li .itme:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    border-top: 1px solid white;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.picScroll-left .bd ul li .zz_1 .itme .itm:before,
+.itm_2:before {
+    content: "";
+    height: 50px;
+    width: 1px;
+    border-left: 1px solid white;
+    position: absolute;
+    left: 50%;
+    top: calc(50% - 25px);
+}
+
+.picScroll-left .bd ul li .zz_1 .itme .itm b {
+    display: inline-block;
+    width: 80%;
+    height: 44%;
+    position: absolute;
+    left: 10%;
+    vertical-align: baseline;
+}
+
+.picScroll-left .bd ul li .zz_1 .itme .itm b>p {
+    display: inline-block;
+    vertical-align: baseline;
+    text-align: left;
+    font-size: 16px;
+    color: white;
+    line-height: 25px;
+}
+
+.picScroll-left .bd ul li .zz_1 .itme .itm span {
+    display: inline-block;
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    left: 25%;
+    top: 55%;
+    text-align: center;
+    color: orange;
+    font-size: 25px;
+}
+
+.picScroll-left .bd ul li .zz_1 .itme .itm_2 {
+    width: auto;
+    height: 100%;
+}
+
+.picScroll-left .bd ul li .zz_1 .itme .itm_2 span {
+    display: inline-block;
+    width: 30%;
+    height: 44%;
+    position: absolute;
+    left: 35%;
+    vertical-align: baseline;
+}
+
+.picScroll-left .bd ul li .zz_1 .itme .itm_2 span p {
+    display: inline-block;
+    vertical-align: baseline;
+    text-align: left;
+    font-size: 25px;
+    color: orange;
+    line-height: 30px;
+    padding-top: 315px;
+}
+
+.picScroll-left .bd ul li .zz_1 .itme .itm_2 b {
+    display: inline-block;
+    width: 80%;
+    height: 45%;
+    overflow: hidden;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    text-align: left;
+    font-size: 16px;
+    color: white;
+    line-height: 25px;
+}
+.picScroll-left .bd ul li .zz_1 .itme .it_1{
+    padding-top: 300px;
+
+}
+.picScroll-left .bd ul li .zz_1 .itme .it_2 b>p{
+    padding-top: 230px;
+}
+.picScroll-left .bd ul li .zz_1 .itme .it_3 b>p{
+    padding-top: 265px;
+}
+.picScroll-left .hd .a_2{
+    position: absolute;
+    width: 25px;
+    height: 50px;
+    top: 382px;
+    left: -25px;
+}
+.picScroll-left .hd .a_1{
+    position: absolute;
+    width: 25px;
+    height: 50px;
+    top: 382px;
+    left: 1040px;
+}
+.picScroll-left .hd{
+    position: relative;
+    z-index: 9999;
+}
+.picScroll-left .bd{
+    position: absolute;
+}
 
     
 
@@ -222,7 +389,12 @@ b,strong,em,i,h1,h2,h3,h4{font-weight:normal;font-style:normal}
       height: 550px;
       background: url(../images/img_sgy/eg01/lch-bg.jpg) center center no-repeat;
   }
-  .main_2 h5{
+  .wapper{
+      width: 100%;
+      overflow: hidden;
+      margin: 0 auto;
+  }
+  .main_2 .wapper h5{
     display: inline-block;
     position: absolute;
     border-right: 2px solid white;
@@ -233,11 +405,18 @@ b,strong,em,i,h1,h2,h3,h4{font-weight:normal;font-style:normal}
     font-size: 30px;
     left: 30px;
 }
-  
+.picScroll-left .bd ul li .zz_1 {
+    width: 1040px;
+    height: 812px;
+    position: relative;
+    float: left;
+    text-align: center;
+}
+
  
 }
 
-
+/*大于767px*/
 @media screen and (max-width: 767px){
   .banner{
       width: 100%;
@@ -304,5 +483,76 @@ padding: 10px 0;
     padding-right: 0px;
     line-height: 22px;
   }
+.main_2 .wapper h5{
+    position: relative;
+    display: block;
+    font-size: 25px;
+    color: white;
+    width: auto;
+    border-right: 0px solid white;
+    padding-right: 0px;
+    top: 0;
+    left: 0;
+    text-align: center;
+    margin: 30px 0 10px 0;
+}
+.picScroll-left .bd ul li .zz_1 {
+    width: 345px;
+    height: 550px;
+    position: relative;
+    float: left;
+    text-align: center;
+}
+.picScroll-left .bd ul li .zz_1 .it_1 b>p{
+    display: inline-block;
+    vertical-align: baseline;
+    text-align: left;
+    font-size: 14px;
+    color: white;
+    line-height: 20px;
+    
+}
+.picScroll-left .bd ul li .zz_1 .it_1 span{
+    display: inline-block;
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    left: 25%;
+    top: 57%;
+    color: orange;
+    text-align: center;
+    font-size: 25px;
+}
+.picScroll-left .bd ul li .zz_1 .it_2 span>p{
+    display: inline-block;
+    vertical-align: baseline;
+    text-align: left;
+    font-size: 14px;
+    color: white;
+    line-height: 20px;
+}
+.picScroll-left .bd ul li .zz_1 .it_2 b{
+    display: inline-block;
+    width: 50%;
+    height: 40%;
+    position: absolute;
+    left: 25%;
+    top: 57%;
+    color: orange;
+    text-align: center;
+    font-size: 25px;
+}
+.picScroll-left .bd ul li .zz_1 .itme .it_1{
+    padding-top: 170px;
+}
+.picScroll-left .bd ul li .zz_1 .itme .it_2 b p{
+    padding-top: 0;
+}
+.picScroll-left .bd ul li .zz_1 .itme .itm_2 span p{
+    padding-top: 210px;
+}
 
+.picScroll-left .bd ul li .zz_1 .itme .it_3 b p{
+    padding-top: 0px;
+}
 }
