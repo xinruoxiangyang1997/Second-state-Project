@@ -167,6 +167,33 @@
 /*数据云存储区域结束*/
 
 
+/* 立即开通样式 */
+
+.gdw_open {
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+}
+
+.gdw_open>.open_link {
+    font-size: 15px;
+    color: #fff;
+    display: block;
+    width: 145px;
+    height: 50px;
+    margin: 50px auto 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    background: rgb(236, 124, 48);
+}
+
+.gdw_open>.open_link:hover {
+    text-decoration: none;
+    background: rgb(219, 106, 30);
+}
+
+
 /*大屏显示器*/
 
 @media (min-width:1300px) {
@@ -499,5 +526,22 @@
         font-weight: bold;
         padding-top: 10px;
         margin-bottom: 0;
+    }
+    .gdw_open {
+        width: 100%;
+        height: 60px;
+        background-color: #fff;
+    }
+    .gdw_open>.open_link {
+        font-size: 15px;
+        color: #fff;
+        display: block;
+        width: 100px;
+        height: 30px;
+        margin: 30px auto 30px;
+        text-align: center;
+        line-height: 30px;
+        border-radius: 5px;
+        background: rgb(236, 124, 48);
     }
 }
