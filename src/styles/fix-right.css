@@ -6,11 +6,7 @@
     position: fixed;
     right: 0;
     top: 100px;
-<<<<<<< HEAD
-    z-index: 100;
-=======
-    z-index: 1000000000000000000;
->>>>>>> be1298800db1ca173445c40a49931785fd7f436e
+    z-index: 10000000000000000;
 }
 
 .fix-right div {
