@@ -1,0 +1,86 @@
+{
+    "video": {
+        "imgs": ["../images/img_wj/qcloud/plan6-1.png", "../images/img_wj/qcloud/plan6-2.png", "../images/img_wj/qcloud/plan6-3.png", "../images/img_wj/qcloud/plan6-4.png", "../images/img_wj/qcloud/plan6-5.png", "../images/img_wj/qcloud/plan6-6.png"],
+        "title": "视频解决方案",
+        "describe": "腾讯云为您的视频应用提供一站式解决方案。凭借直播点播、互动直播、云通信等产品，以及覆盖全国的视频发布网络、海量转码设备、数十年音视频领域深厚技术积淀，您可轻松具备全方位的视频能力支撑，全心专注于业务本身。",
+        "details": "http://www.chaoyuyun.com/plan/plan-video.html",
+        "online": "https://admin.qidian.qq.com/template/blue/mp/menu/qr-code-jump.html?linkType=0&env=ol&kfuin=2852000341&kfext=2852000341&fid=20&key=ff10c906baba7057ce6c7153a900d597&cate=1&type=16&ftype=1&roleKey=roleQQ&roleValue=1&roleName=%E6%8E%A5%E5%BE%85%E7%BB%84&roleData=8&roleUin=8"
+    },
+    "wechat_ecology": {
+        "imgs": ["../images/img_wj/qcloud/plan2-1.png", "../images/img_wj/qcloud/plan2-2.png", "../images/img_wj/qcloud/plan2-3.png", "../images/img_wj/qcloud/plan2-4.png", "../images/img_wj/qcloud/plan2-5.png", "../images/img_wj/qcloud/plan2-6.png"],
+        "title": "微信生态解决方案",
+        "describe": "腾讯云为微信服务行业客户提供一站式服务，解决各类应用场景下的难题，高性能高稳定的服务器、数据库、存储、缓存等服务，与微信同级别的顶级加速服务，加上与微信同平台无缝对接的优势，是微信客户的不二之选。",
+        "details": "http://www.chaoyuyun.com/plan/plan-wx.html",
+        "online": "https://admin.qidian.qq.com/template/blue/mp/menu/qr-code-jump.html?linkType=0&env=ol&kfuin=2852000341&kfext=2852000341&fid=20&key=ff10c906baba7057ce6c7153a900d597&cate=1&type=16&ftype=1&roleKey=roleQQ&roleValue=1&roleName=%E6%8E%A5%E5%BE%85%E7%BB%84&roleData=8&roleUin=8"
+    },
+    "commerce": {
+        "imgs": ["../images/img_wj/qcloud/plan4-1.png", "../images/img_wj/qcloud/plan4-2.png", "../images/img_wj/qcloud/plan4-3.png", "../images/img_wj/qcloud/plan4-4.png", "../images/img_wj/qcloud/plan4-5.png", "../images/img_wj/qcloud/plan4-6.png"],
+        "title": "电商解决方案",
+        "describe": "腾讯云为电商客户提供高效便捷、安全可靠、灵活开放的各类云服务产品，针对行业场景定制多种专属产品和工具，满足各类场景需求，帮助企业从容面对业务高峰、安全压力，助力电商快速发展，是电商上云的第一选择。",
+        "details": "http://www.chaoyuyun.com/plan/plan-commerce.html",
+        "online": "https://admin.qidian.qq.com/template/blue/mp/menu/qr-code-jump.html?linkType=0&env=ol&kfuin=2852000341&kfext=2852000341&fid=20&key=ff10c906baba7057ce6c7153a900d597&cate=1&type=16&ftype=1&roleKey=roleQQ&roleValue=1&roleName=%E6%8E%A5%E5%BE%85%E7%BB%84&roleData=8&roleUin=8"
+    },
+    "software": {
+        "imgs": ["../images/img_wj/qcloud/plan1-1.png", "../images/img_wj/qcloud/plan1-2.png", "../images/img_wj/qcloud/plan1-3.png", "../images/img_wj/qcloud/plan1-4.png", "../images/img_wj/qcloud/plan1-5.png", "../images/img_wj/qcloud/plan1-6.png"],
+        "title": "软件/APP解决方案",
+        "describe": "腾讯云帮您灵活应对各种应用场景，高能高稳定的云服务器和云数据库，可快速部署软件和APP。更有将QQ账号体系及关系链、QQ消息通道能力等核心能力，充分利用和发挥腾讯QQ的亿万手机客户端及云服务的优势，融合腾讯云德各种管道服务，让您的软件/APP有更多的与众不同。",
+        "details": "http://www.chaoyuyun.com/plan/plan-app.html",
+        "online": "https://admin.qidian.qq.com/template/blue/mp/menu/qr-code-jump.html?linkType=0&env=ol&kfuin=2852000341&kfext=2852000341&fid=20&key=ff10c906baba7057ce6c7153a900d597&cate=1&type=16&ftype=1&roleKey=roleQQ&roleValue=1&roleName=%E6%8E%A5%E5%BE%85%E7%BB%84&roleData=8&roleUin=8"
+    },
+    "SAAS": {
+        "imgs": ["../images/img_wj/qcloud/plan3-1.png", "../images/img_wj/qcloud/plan3-2.png", "../images/img_wj/qcloud/plan3-3.png", "../images/img_wj/qcloud/plan3-4.png", "../images/img_wj/qcloud/plan3-5.png", "../images/img_wj/qcloud/plan3-6.png"],
+        "title": "SAAS软件解决方案",
+        "describe": "腾讯云所提供的负载均衡、高能高稳定的云服务器和云数据库，缓存、对象存储等服务，一定可以满足SAAS应用高并发的要求。腾讯云为开发者提供基础运营能力，让开发者集中精力、高枕无忧的为其客户提供更极致的应用体验。",
+        "details": "http://www.chaoyuyun.com/plan/plan-saas.html",
+        "online": "https://admin.qidian.qq.com/template/blue/mp/menu/qr-code-jump.html?linkType=0&env=ol&kfuin=2852000341&kfext=2852000341&fid=20&key=ff10c906baba7057ce6c7153a900d597&cate=1&type=16&ftype=1&roleKey=roleQQ&roleValue=1&roleName=%E6%8E%A5%E5%BE%85%E7%BB%84&roleData=8&roleUin=8"
+    },
+    "big_data": {
+        "imgs": ["../images/img_wj/qcloud/plan5-1.png", "../images/img_wj/qcloud/plan5-2.png", "../images/img_wj/qcloud/plan5-3.png", "../images/img_wj/qcloud/plan5-4.png", "../images/img_wj/qcloud/plan5-5.png", "../images/img_wj/qcloud/plan5-6.png"],
+        "title": "大数据解决方案",
+        "describe": "腾讯大数据方案，安全可靠，灵活部署可以快速为企事业单位提供一站式大数据方案，快速接入内部和外部数据，从数据处理、分析、到展示，充分挖掘政务数据潜力，提供交互式展示工具，助力各类应用。",
+        "details": "http://www.chaoyuyun.com/plan/plan-bigdata.html",
+        "online": "https://admin.qidian.qq.com/template/blue/mp/menu/qr-code-jump.html?linkType=0&env=ol&kfuin=2852000341&kfext=2852000341&fid=20&key=ff10c906baba7057ce6c7153a900d597&cate=1&type=16&ftype=1&roleKey=roleQQ&roleValue=1&roleName=%E6%8E%A5%E5%BE%85%E7%BB%84&roleData=8&roleUin=8"
+    },
+    "O2O": {
+        "imgs": ["../images/img_wj/qcloud/plan7-1.png", "../images/img_wj/qcloud/plan7-2.png", "../images/img_wj/qcloud/plan7-3.png", "../images/img_wj/qcloud/plan7-4.png", "../images/img_wj/qcloud/plan7-5.png", "../images/img_wj/qcloud/plan7-6.png"],
+        "title": "O2O解决方案",
+        "describe": "腾讯云为O2O行业客户提供灵活弹性、安全可靠、功能完备的各类云服务产品，针对行业的常用应用场景定制多种专属产品和工具，不仅能帮助客户从容应对业务高峰、安全问题，更能深入业务本身提供高效便捷的解决方案。",
+        "details": "http://www.chaoyuyun.com/plan/plan-o2o.html",
+        "online": "https://admin.qidian.qq.com/template/blue/mp/menu/qr-code-jump.html?linkType=0&env=ol&kfuin=2852000341&kfext=2852000341&fid=20&key=ff10c906baba7057ce6c7153a900d597&cate=1&type=16&ftype=1&roleKey=roleQQ&roleValue=1&roleName=%E6%8E%A5%E5%BE%85%E7%BB%84&roleData=8&roleUin=8"
+    },
+    "travel": {
+        "imgs": ["../images/img_wj/qcloud/plan8-1.png", "../images/img_wj/qcloud/plan8-2.png", "../images/img_wj/qcloud/plan8-3.png", "../images/img_wj/qcloud/plan8-4.png", "../images/img_wj/qcloud/plan8-5.png", "../images/img_wj/qcloud/plan8-6.png"],
+        "title": "旅游解决方案",
+        "describe": "腾讯云结合旅游行业的各类型场景，为旅游行业客户提供开放、高效、安全的云计算和大数据服务。高性能低价格的网络、计算、存储等基础资源，便捷丰富的图片处理、网络加速等云服务，助力旅游行业客户快速发展。",
+        "details": "http://www.chaoyuyun.com/plan/plan-trip.html",
+        "online": "https://admin.qidian.qq.com/template/blue/mp/menu/qr-code-jump.html?linkType=0&env=ol&kfuin=2852000341&kfext=2852000341&fid=20&key=ff10c906baba7057ce6c7153a900d597&cate=1&type=16&ftype=1&roleKey=roleQQ&roleValue=1&roleName=%E6%8E%A5%E5%BE%85%E7%BB%84&roleData=8&roleUin=8"
+    },
+    "game": {
+        "imgs": ["../images/img_wj/qcloud/plan9-1.png", "../images/img_wj/qcloud/plan9-2.png", "../images/img_wj/qcloud/plan9-3.png", "../images/img_wj/qcloud/plan9-4.png", "../images/img_wj/qcloud/plan9-5.png", "../images/img_wj/qcloud/plan9-6.png"],
+        "title": "游戏解决方案",
+        "describe": "腾讯云信心共享海量游戏运营经验，致力于打造高质量、全方位生态的游戏云服务平台。高可用，高性能的基础设施、丰富的游戏特色产品、大平台优质渠道资源、以及丰厚的专项扶持金，助力您的游戏业务腾飞。",
+        "details": "http://www.chaoyuyun.com/plan/plan-game.html",
+        "online": "https://admin.qidian.qq.com/template/blue/mp/menu/qr-code-jump.html?linkType=0&env=ol&kfuin=2852000341&kfext=2852000341&fid=20&key=ff10c906baba7057ce6c7153a900d597&cate=1&type=16&ftype=1&roleKey=roleQQ&roleValue=1&roleName=%E6%8E%A5%E5%BE%85%E7%BB%84&roleData=8&roleUin=8"
+    },
+    "mdc_treat": {
+        "imgs": ["../images/img_wj/qcloud/plan10-1.png", "../images/img_wj/qcloud/plan10-2.png", "../images/img_wj/qcloud/plan10-3.png", "../images/img_wj/qcloud/plan10-4.png", "../images/img_wj/qcloud/plan10-5.png", "../images/img_wj/qcloud/plan10-6.png"],
+        "title": "医疗解决方案",
+        "describe": "致力于加速医疗互联网应用信息化建设，构建医疗云生态。 融合点播直播、互动直播、通信等能力，突破时空限制，实现远程医疗和协同；大数据处理，让海量医疗数据获得精准分析；海量存储、专线网络，构建影像管理平台。",
+        "details": "http://www.chaoyuyun.com/plan/plan-medical.html",
+        "online": "https://admin.qidian.qq.com/template/blue/mp/menu/qr-code-jump.html?linkType=0&env=ol&kfuin=2852000341&kfext=2852000341&fid=20&key=ff10c906baba7057ce6c7153a900d597&cate=1&type=16&ftype=1&roleKey=roleQQ&roleValue=1&roleName=%E6%8E%A5%E5%BE%85%E7%BB%84&roleData=8&roleUin=8"
+    },
+    "finance": {
+        "imgs": ["../images/img_wj/qcloud/plan11-1.png", "../images/img_wj/qcloud/plan11-2.png", "../images/img_wj/qcloud/plan11-3.png", "../images/img_wj/qcloud/plan11-4.png", "../images/img_wj/qcloud/plan11-5.png", "../images/img_wj/qcloud/plan11-6.png"],
+        "title": "金融解决方案",
+        "describe": "金融云作为金融级业务解决方案，满足最严苛的设计要求，兼容传统金融业务架构，助您无负担快速迁云，个性化订制及灵活扩展让您专注业务领域，连接汇聚互联网的海量计算、存储、应用及大数据资源，是您互联网转型首选。",
+        "details": "http://www.chaoyuyun.com/plan/plan-finance.html",
+        "online": "https://admin.qidian.qq.com/template/blue/mp/menu/qr-code-jump.html?linkType=0&env=ol&kfuin=2852000341&kfext=2852000341&fid=20&key=ff10c906baba7057ce6c7153a900d597&cate=1&type=16&ftype=1&roleKey=roleQQ&roleValue=1&roleName=%E6%8E%A5%E5%BE%85%E7%BB%84&roleData=8&roleUin=8"
+    },
+    "hardware": {
+        "imgs": ["../images/img_wj/qcloud/plan12-1.png", "../images/img_wj/qcloud/plan12-2.png", "../images/img_wj/qcloud/plan12-3.png", "../images/img_wj/qcloud/plan12-4.png", "../images/img_wj/qcloud/plan12-5.png", "../images/img_wj/qcloud/plan12-6.png"],
+        "title": "智能硬件解决方案",
+        "describe": "将QQ账号体系及关系链、QQ消息通道能力等核心能力，提供给可穿戴设备、智能家居、智能车载、传统硬件等领域合作伙伴，实现用户与设备及设备与设备之间的互联互通互动，充分利用和发挥腾讯QQ的亿万手机客户端及云服务的优势，更大范围帮助传统行业实现互联网化。",
+        "details": "http://www.chaoyuyun.com/plan/plan-smart.html",
+        "online": "https://admin.qidian.qq.com/template/blue/mp/menu/qr-code-jump.html?linkType=0&env=ol&kfuin=2852000341&kfext=2852000341&fid=20&key=ff10c906baba7057ce6c7153a900d597&cate=1&type=16&ftype=1&roleKey=roleQQ&roleValue=1&roleName=%E6%8E%A5%E5%BE%85%E7%BB%84&roleData=8&roleUin=8"
+    }
+}

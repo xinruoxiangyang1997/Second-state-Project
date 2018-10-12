@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../images/font_aww3hzmo9cb/iconfont.css">
+    <script src="../../node_modules/jquery/dist/jquery.min.js "></script>
+    <link rel="stylesheet" href="../styles/fix-right.css">
+    <!--[if lt IE 9]>
+        <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <!-- 右侧插件 -->
+    <div class="fix-right">
+        <div class="top">
+            <p><i class="iconfont icon-xiazai16"></i></p>
+            <span>在线咨询</span>
+        </div>
+        <div class="middle">
+            <p><i class="iconfont icon-dianhua2"></i></p>
+            <span>电话咨询</span>
+            <div class="hover">
+                <p>咨询热线</p>
+                <p><i class="iconfont icon-dianhua2"></i></p>
+                <p>18617093219</p>
+            </div>
+        </div>
+        <div class="bottom">
+            <p><i class="iconfont icon-xiangshang"></i></p>
+            <span>返回顶部</span>
+        </div>
+    </div>
+
+
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js "></script>
+</body>
+<script>
+    $(function() {
+        var top;
+        $(window).scroll(function() {
+            // 滚动监听
+            top = $("body,html").scrollTop();
+            if (top > 0) {
+                $(".bottom").show(20);
+            } else {
+                $(".bottom").hide(20);
+            }
+        })
+        $(window).screen
+        $(".bottom").on("click", function() {
+            //点击回到顶部，加上动画效果
+            $("body, html").animate({
+                scrollTop: 0
+            }, 500);
+        });
+
+        $(".top").on("click", function() {
+            //点击跳转
+            window.open('http://wpa.qq.com/msgrd?v=3&uin=366553333&site=qq&menu=yes')
+        })
+
+    })
+</script>
+
+</html>
