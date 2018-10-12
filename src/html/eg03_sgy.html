@@ -5,17 +5,111 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
-
+    <link href="../../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/index_top.css">
     <link rel="stylesheet" type="text/css" href="../styles/eg03_sgy.css" />
-    <style type="text/css">
-    </style>
+    <script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="../js/jquery.SuperSlide.2.1.1.js"></script>
+	<script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../js/index_top.js"></script>
+    <link rel="stylesheet" href="../images/font_aww3hzmo9cb/iconfont.css"> 
+    <link rel="stylesheet" href="../styles/fix-right.css">
+    <link rel="stylesheet" href="../styles/index_btm.css">
 </head>
 
 <body>
+    <!-- 首页导航条开始-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+	
+				<!-- 移动端按钮组件 -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-ele-navbar-collapse-5" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img src="../images/img_yjp/logoyang/logo1.png" alt="" class="img1">
+						<img src="../images/img_yjp/imgxyang/plogo-bg1.png" alt="" class="img2 hidden-md hidden-sm hidden-xs"></a>
+				</div>
+	
+				<!-- 折叠菜单 -->
+				<div class="collapse navbar-collapse" id="bs-ele-navbar-collapse-5" style="height: 1px;">
+					<ul class="nav navbar-nav">
+						<li><a href="#">首页</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">产品介绍 </a>
+							<ul class="dropdown-menu">
+								<li class="dropdown drop1">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">企业应用软件</a>
+									<ul class="dropdown-submenu submenu1">
+										<li><a href="#">库管王</a></li>
+										<li><a href="#">跟单王</a></li>
+										<li><a href="#">小圈ERP</a></li>
+										<li><a href="#">营销QQ</a></li>
+										<li><a href="#">企业QQ</a></li>
+										<li><a href="#">企点服务</a></li>
+										<li><a href="#">企点分析</a></li>
+										<li><a href="#">爱客CRM</a></li>
+									</ul>
+								</li>
+								<li class="dropdown drop2">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">网络推广服务</a>
+									<ul class="dropdown-submenu submenu2">
+										<li><a href="#">搜狗搜索</a></li>
+										<li><a href="#">有道智选</a></li>
+										<li><a href="#">神马搜索</a></li>
+										<li><a href="#">智汇推</a></li>
+										<li><a href="#">阿里汇川</a></li>
+										<li><a href="#">百度文库</a></li>
+										<li><a href="#">搜狗汇算</a></li>
+									</ul>
+								</li>
+								<li class="dropdown drop3">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">网络基础服务</a>
+									<ul class="dropdown-submenu submenu3">
+										<li><a href="#">腾讯云</a></li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">客户分享</a>
+							<ul class="dropdown-menu menu1">
+								<li><a href="#">企业QQ视频</a></li>
+								<li><a href="#">营销QQ视频</a></li>
+	
+							</ul>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">超预服务</a>
+							<ul class="dropdown-menu menu2">
+								<li><a href="#">超预企业服务</a></li>
+								<li><a href="#">超预SEN服务</a></li>
+							</ul>
+						</li>
+						<li><a href="#">求贤纳士</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">关于聚客友</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">公司简介</a></li>
+								<li><a href="#">荣誉资质</a></li>
+								<li><a href="#">公司动态</a></li>
+							</ul>
+						</li>
+						<li><a href="#">渠道合作</a></li>
+						<li class="lastli"><a href="#">联系我们</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- 首页导航条结束 -->
+		<div class="empty"></div>
     <div class="banner">
         <ul>
             <li class="li_1">
-                <a href="/eg01_sgy.html">
+                <a href="eg01_sgy.html">
                     <p>
                         <b>公司</b>
                         <span>简介</span>
@@ -23,7 +117,7 @@
                 </a>
             </li>
             <li class="li_2">
-                <a href="#">
+                <a href="eg02_sgy.html">
                     <p>
                         <b>荣誉</b>
                         <span>资质</span>
@@ -31,7 +125,7 @@
                 </a>
             </li>
             <li class="li_3">
-                <a href="#">
+                <a href="eg03_sgy.html">
                     <p>
                         <b>公司</b>
                         <span>动态</span>
@@ -168,6 +262,133 @@
             </div>
         </div>
     </div>
+
+
+     <!-- 右侧插件 -->
+	 <div class="fix-right">
+			<div class="top">
+				<p><i class="iconfont icon-xiazai16"></i></p>
+				<span>在线咨询</span>
+			</div>
+			<div class="middle">
+				<p><i class="iconfont icon-dianhua2"></i></p>
+				<span>电话咨询</span>
+				<div class="hover">
+					<p>咨询热线</p>
+					<p><i class="iconfont icon-dianhua2"></i></p>
+					<p>18617093219</p>
+				</div>
+			</div>
+			<div class="bottom">
+				<p><i class="iconfont icon-xiangshang"></i></p>
+				<span>返回顶部</span>
+			</div>
+        </div>
+        
+          <!-- 页面底部开始 -->
+
+    <!-- 设置最外层，适应屏幕 -->
+    <div class="bandiv1">
+            <!-- 设置底部banner背景图-->
+            <div class="bannerbtm">
+                <!-- 主体内容 -->
+                <div class="container">
+                    <!-- 友情链接开始 -->
+                    <h5 class="hidden-sm hidden-xs hidden-md">公司产品</h5>
+                    <ul class="btmul hidden-sm hidden-xs hidden-md">
+                        <li><img src="../images/img_yjp/logoyang/bd-logo1.png" alt="" class="imgbtm"><img src="../images/img_yjp/logoyang/bd-logo.png" alt=""><span>百度优文</span></li>
+                        <li><img src="../images/img_yjp/logoyang/qd-logo1.png" alt="" class="imgbtm"><img src="../images/img_yjp/logoyang/qd-logo.png" alt=""><span>企点服务</span></li>
+                        <li><img src="../images/img_yjp/logoyang/qd-logo1.png" alt="" class="imgbtm"><img src="../images/img_yjp/logoyang/qd-logo.png" alt=""><span>企点服务</span></li>
+                        <li><img src="../images/img_yjp/logoyang/qyqq-logo1.png" alt="" class="imgbtm"><img src="../images/img_yjp/logoyang/qyqq-logo.png" alt=""><span>企业QQ</span></li>
+                        <li><img src="../images/img_yjp/logoyang/yxqq-logo1.png" alt="" class="imgbtm"><img src="../images/img_yjp/logoyang/yxqq-logo.png" alt=""><span>营销QQ</span></li>
+                        <li><img src="../images/img_yjp/logoyang/gdw-logo1.png" alt="" class="imgbtm"><img src="../images/img_yjp/logoyang/gdw-logo.png" alt=""></li>
+                        <li><img src="../images/img_yjp/logoyang/kgw-logo1.png" alt="" class="imgbtm"><img src="../images/img_yjp/logoyang/kgw-logo.png" alt=""></li>
+                        <li><img src="../images/img_yjp/logoyang/ik-logo1.png" alt="" class="imgbtm"><img src="../images/img_yjp/logoyang/ik-logo.png" alt=""></li>
+                        <li><img src="../images/img_yjp/logoyang/sg-logo1.png" alt="" class="imgbtm"><img src="../images/img_yjp/logoyang/sg-logo.png" alt=""><span>搜狗搜索</span></li>
+                        <li><img src="../images/img_yjp/logoyang/shm-logo1.png" alt="" class="imgbtm"><img src="../images/img_yjp/logoyang/shm-logo.png" alt=""></li>
+                        <li><img src="../images/img_yjp/logoyang/alihch-logo1.png" alt="" class="imgbtm"><img src="../images/img_yjp/logoyang/alihch-logo.png" alt=""><span>汇川推广</span></li>
+                        <li><img src="../images/img_yjp/logoyang/yd-logo1.png" alt="" class="imgbtm"><img src="../images/img_yjp/logoyang/yd-logo.png" alt=""><span>有道智选</span></li>
+                        <li><img src="../images/img_yjp/logoyang/zhht-logo1.png" alt="" class="imgbtm"><img src="../images/img_yjp/logoyang/zhht-logo.png" alt=""><span></span></li>
+                        <li><img src="../images/img_yjp/logoyang/qcloud-logo1.png" alt="" class="imgbtm"><img src="../images/img_yjp/logoyang/qcloud-logo.png" alt=""><span></span></li>
+                    </ul>
+                    <!-- 友情链接结束 -->
+                    <!-- 关于我们开始 -->
+    
+                    <ul class="row">
+                        <li class="col col-md-3 col-sm-12 col-xs-12">
+                            <h4>产品咨询</h4>
+                            <span>咨询热线：18194088943</span>
+                            <span>QQ咨询：</span>
+                        </li>
+                        <li class="col col-md-3 col-sm-12 col-xs-12">
+                            <h4>商务合作</h4>
+                            <span>合作电话：18194088943</span>
+                            <span>邮箱:366553333@qq.com</span>
+                        </li>
+                        <li class="col col-md-3 col-sm-12 col-xs-12">
+                            <h4>联系我们</h4>
+                            <span>地址：深圳市南山区高新南七道惠恒集团2期3楼</span>
+                            <span>总机：18194088943</span>
+                            <span>传真：0755-81354333</span>
+                            <span>邮编：518063</span>
+                        </li>
+                        <li class="col col-md-3 ">
+                            <img src="../images/img_yjp/logoyang/ewm.jpg" alt="" class="img">
+                        </li>
+                    </ul>
+                    <!-- 关于我们结束 -->
+                    <!-- 合作公司开始 -->
+                    <ul class="hidden-md hidden-sm hidden-xs company">
+                        <li><a href="">国经网络科技南通有限公司</a></li>
+                        <li><a href="">深圳聚客友网络科技有限公司</a></li>
+                        <li><a href="">广州泛德信息科技有限公司</a></li>
+                        <li><a href="">苏州润桥信息科技有限公司</a></li>
+                        <li><a href="">深圳聚客友网络科技有限公司东莞分公司</a></li>
+                        <li><a href="">北京超预期网络科技有限公司</a></li>
+                        <li><a href="">超预云</a></li>
+                        <li><a href="">超预企业服务</a></li>
+                    </ul>
+                    <!-- 合作公司结束 -->
+                </div>
+                <!-- 公安备案号开始 -->
+                <div class="row rowbottom container-fluid">
+                    <div class="container">
+                        <a class="col col-lg-3 col-md-12 col-sm-12 col-xs-12">粤ICP备12030596号-1</a>
+                        <span class="col col-lg-3 col-md-12 col-sm-12 col-xs-12">Copyright 2012 - 2017</span>
+                        <span class="col col-lg-3 col-md-12 col-sm-12 col-xs-12">All Rights Reserved.</span>
+                        <span class="col col-lg-3 col-md-12 col-sm-12 col-xs-12">深圳聚客友网络科技有限公司</span>
+                    </div>
+                </div>
+                <!-- 公安备案号结束 -->
+            </div>
+        </div>
 </body>
+<script>
+		$(function() {
+			var top;
+			$(window).scroll(function() {
+				// 滚动监听
+				top = $("body,html").scrollTop();
+				if (top > 0) {
+					$(".bottom").show(20);
+				} else {
+					$(".bottom").hide(20);
+				}
+			})
+			$(window).screen
+			$(".bottom").on("click", function() {
+				//点击回到顶部，加上动画效果
+				$("body, html").animate({
+					scrollTop: 0
+				}, 500);
+			});
+	
+			$(".top").on("click", function() {
+				//点击跳转
+				window.open('http://wpa.qq.com/msgrd?v=3&uin=366553333&site=qq&menu=yes')
+			})
+	
+		})
+	</script>
 
 </html>

@@ -220,7 +220,6 @@ b,strong,em,i,h1,h2,h3,h4{font-weight:normal;font-style:normal}
     .banner{
         width: 100%;
         height: 400px;
-        margin-top: 70px;
         zoom: 0.78
     }
     .banner ul{
@@ -336,7 +335,7 @@ b,strong,em,i,h1,h2,h3,h4{font-weight:normal;font-style:normal}
     .banner{
         width: 100%;
         height: 300px;
-        margin-top: 130px;
+       
         zoom: 0.45
     }
     .banner ul{
