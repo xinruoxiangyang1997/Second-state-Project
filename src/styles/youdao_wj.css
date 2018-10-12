@@ -287,7 +287,7 @@
     .solve_method .solve_tab {
         display: flex;
         width: auto;
-        /* fone;loat: n */
+        float: none;
         overflow: hidden;
         background: #F2F6F9;
         justify-content: space-around;
