@@ -37,7 +37,7 @@
 					<!-- 折叠菜单 -->
 					<div class="collapse navbar-collapse" id="bs-ele-navbar-collapse-5" style="height: 1px;">
 						<ul class="nav navbar-nav">
-							<li><a href="#">首页</a></li>
+							<li><a href="index_yy.html">首页</a></li>
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">产品介绍 </a>
 								<ul class="dropdown-menu">
@@ -45,7 +45,7 @@
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">企业应用软件</a>
 										<ul class="dropdown-submenu submenu1">
 											<li><a href="kgw_wj.html">库管王</a></li>
-											<li><a href="#">跟单王</a></li>
+											<li><a href="gdw_wj.html">跟单王</a></li>
 											<li><a href="#">小圈ERP</a></li>
 											<li><a href="#">营销QQ</a></li>
 											<li><a href="#">企业QQ</a></li>
@@ -392,8 +392,35 @@
 	<script type="text/javascript">
 		jQuery(".picScroll-left").slide({ titCell: ".hd ul", mainCell: ".bd ul", autoPage: true, effect: "left", autoPlay: true, vis: 1, trigger: "click" });
 	</script>
-</body>
 
+</body>
+<script>
+    $(function() {
+        var top;
+        $(window).scroll(function() {
+            // 滚动监听
+            top = $("body,html").scrollTop();
+            if (top > 0) {
+                $(".bottom").show(20);
+            } else {
+                $(".bottom").hide(20);
+            }
+        })
+        $(window).screen
+        $(".bottom").on("click", function() {
+            //点击回到顶部，加上动画效果
+            $("body, html").animate({
+                scrollTop: 0
+            }, 500);
+        });
+
+        $(".top").on("click", function() {
+            //点击跳转
+            window.open('http://wpa.qq.com/msgrd?v=3&uin=366553333&site=qq&menu=yes')
+        })
+
+    })
+</script>
 
 </html>
 <script type="text/javascript">

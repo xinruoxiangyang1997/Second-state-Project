@@ -337,5 +337,31 @@
 			</div>
 		</div>
 </body>
+<script>
+    $(function() {
+        var top;
+        $(window).scroll(function() {
+            // 滚动监听
+            top = $("body,html").scrollTop();
+            if (top > 0) {
+                $(".bottom").show(20);
+            } else {
+                $(".bottom").hide(20);
+            }
+        })
+        $(window).screen
+        $(".bottom").on("click", function() {
+            //点击回到顶部，加上动画效果
+            $("body, html").animate({
+                scrollTop: 0
+            }, 500);
+        });
 
+        $(".top").on("click", function() {
+            //点击跳转
+            window.open('http://wpa.qq.com/msgrd?v=3&uin=366553333&site=qq&menu=yes')
+        })
+
+    })
+</script>
 </html>
