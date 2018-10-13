@@ -15,7 +15,6 @@ gulp.task('cssmin', function() {
 });
 
 //终端中运行   $  gulp cssmin
-
 //压缩js代码
 gulp.task('uglify', function() {
     return gulp.src(['src/js/*.js', '!src/js/**/{jquery-3.3.1.min,jquery.SuperSlide.2.1.1,jquery1.42.min}.js']).pipe(uglify()).pipe(rename({ suffix: '.min' })).pipe(gulp.dest('dist/js'))
