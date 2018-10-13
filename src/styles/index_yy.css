@@ -1490,12 +1490,16 @@
         margin: 0 auto;
         padding: 0 15px;
     }
-    .navbar-default .navbar-nav>.open>a,
+    /* .navbar-default .navbar-nav>.open>a,
     .navbar-default .navbar-nav>.open>a:focus,
     .navbar-default .navbar-nav>.open>a:hover,
     nav a:hover {
         color: #fff!important;
         background-color: transparent;
+    } */
+    .dropdown-submenu {
+        margin-left: 0;
+        list-style: none;
     }
     .indexbase-ctitle {
         width: auto;
