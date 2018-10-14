@@ -46,10 +46,10 @@
         border-left: 1px solid #9a9a9a;
     }
     
-    .bannerbtm>.container>.btmul>li>span {
-        font-size: 20px;
+    .bannerbtm>.container>.btmul>li span {
         color: #9a9a9a;
         margin-left: 5px;
+        font-size: 20px;
     }
     /* 悬浮时显示状态 */
     
@@ -57,7 +57,7 @@
         color: #fff;
     }
     
-    .bannerbtm>.container>.btmul>li:hover>.imgbtm {
+    .bannerbtm>.container>.btmul>li:hover .imgbtm {
         display: block;
     }
     /* 调整边线 */
@@ -82,27 +82,27 @@
     }
     
     .bannerbtm>.container>.btmul>li:nth-child(2)>.imgbtm {
-        left: 16px;
+        left: 15px;
     }
     
     .bannerbtm>.container>.btmul>li:nth-child(3)>.imgbtm {
-        left: 16px;
+        left: 15px;
     }
     
-    .bannerbtm>.container>.btmul>li:nth-child(4)>.imgbtm {
-        left: 27px;
+    .bannerbtm>.container>.btmul>li:nth-child(4)>a>.imgbtm {
+        left: 24px;
     }
     
-    .bannerbtm>.container>.btmul>li:nth-child(5)>.imgbtm {
-        left: 32px;
+    .bannerbtm>.container>.btmul>li:nth-child(5)>a>.imgbtm {
+        left: 24px;
     }
     
-    .bannerbtm>.container>.btmul>li:nth-child(6)>.imgbtm {
+    .bannerbtm>.container>.btmul>li:nth-child(6)>a>.imgbtm {
         left: 40px;
     }
     
-    .bannerbtm>.container>.btmul>li:nth-child(7)>.imgbtm {
-        left: 40px;
+    .bannerbtm>.container>.btmul>li:nth-child(7)>a>.imgbtm {
+        left: 39px;
     }
     
     .bannerbtm>.container>.btmul>li:nth-child(8)>.imgbtm {
@@ -110,7 +110,7 @@
     }
     
     .bannerbtm>.container>.btmul>li:nth-child(9)>.imgbtm {
-        left: 24px;
+        left: 22px;
     }
     
     .bannerbtm>.container>.btmul>li:nth-child(10)>.imgbtm {
@@ -118,18 +118,18 @@
     }
     
     .bannerbtm>.container>.btmul>li:nth-child(11)>.imgbtm {
-        left: 20px;
+        left: 18px;
     }
     
-    .bannerbtm>.container>.btmul>li:nth-child(12)>.imgbtm {
-        left: 23px;
+    .bannerbtm>.container>.btmul>li:nth-child(12)>a>.imgbtm {
+        left: 22px;
     }
     
     .bannerbtm>.container>.btmul>li:nth-child(13)>.imgbtm {
         left: 31px;
     }
     
-    .bannerbtm>.container>.btmul>li:nth-child(14)>.imgbtm {
+    .bannerbtm>.container>.btmul>li:nth-child(14)>a>.imgbtm {
         left: 27px;
     }
     /* 友情链接样式结束 */
