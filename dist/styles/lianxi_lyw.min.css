@@ -1,1 +1,673 @@
-@charset "utf-8";@media screen and (min-width:768px){.ban,.ban>p{text-align:center;overflow:hidden}.ban:before,.ban>p:before{content:"";font-size:0;vertical-align:middle}.ban:before,.ban>p,.ban>p:before,.ban>p>b,.ban>p>span{vertical-align:middle}.ban>p>span,.ban>p>span>u{color:#fff;line-height:60px;display:inline-block}.ban:before,.ban>p,.ban>p:before,.ban>p>b,.ban>p>span,.ban>p>span>u,.city>.row>ul>li>a>b{display:inline-block}.col-lg-12,.col-lg-6,.container-fluid,.row{padding:0}.ban{width:100%;height:563px;position:relative;background:url(../images/img-lyw/banner2.jpg) center center no-repeat}.ban:before{width:0;height:100%}.ban>p{width:439px;height:298px;margin:100px auto 0;letter-spacing:2px;background:url(../images/img-lyw/banner2-bg.png) center center no-repeat}.ban>p:before{width:0;height:100%}.ban>p>b{font-size:150px;color:#fff}.ban>p>span{font-size:55px;text-align:left}.ban>p>span>u{font-size:45px;text-align:left}.city>.row>ul{overflow:hidden;list-style:none;height:100%;background:#fff;padding-left:17%;margin:0}.city>.row>ul>li{float:left;width:130px;height:80px;line-height:80px;font-size:25px;margin-left:20px;padding:0 20px;background:rgba(101,113,126,.548)}.city>.row>ul>li>a{color:rgba(0,0,0,.425)}.city>.row>ul>li>a>i{font-size:28px;color:#666}.city>.row>ul>li>a>b{font-size:25px;font-weight:900;color:#666;vertical-align:top}.city>.row>ul.bx{position:fixed;left:0;top:150px;height:auto;z-index:100;padding-left:1px;width:100px;background:#fff}.city>.row>ul.bx>li{float:none;width:100px;height:60px;line-height:60px;font-size:20px;margin-left:0;padding:0 2px;background:rgba(101,113,126,.548);margin-bottom:1px;border-radius:5px}.city>.row>div{height:650px;padding-top:20px}.city>.row>div>.left{height:80%;padding:50px 0;margin-left:120px}.city>.row>div>.col-lg-6{padding:0}.city>.row>div>.right{height:80%;padding:50px 0 0 50px}.city>.row>div>.right>.shanghai{width:100%;text-align:left}.city>.row>div>.right>.shanghai>h5{font-size:25px;height:50px}.city>.row>div>.right>.shanghai>.gsdz{overflow:hidden;list-style:none}.city>.row>div>.right>.shanghai>.gsdz>li{overflow:hidden}.city>.row>div>.right>.shanghai>.gsdz>li>b{float:left;font-size:16px;line-height:35px;color:#666;font-weight:800}.city>.row>div>.right>.shanghai>.gsdz>li>span{float:left;font-size:16px;line-height:30px;color:#666;width:500px}.city>.row>div>.right>.shanghai>h6{font-size:20px;margin:50px 0 10px;font-weight:700}.city>.row>div>.right>.shanghai>.fkfs{overflow:hidden}.city>.row>div>.right>.shanghai>.fkfs>li{overflow:hidden;border-bottom:1px solid #dcdcdc;padding:20px 0}.city>.row>div>.right>.shanghai>.fkfs>li:last-child{border-bottom:0}.city>.row>div>.right>.shanghai>.fkfs>li:last-child span,.city>.row>div>.right>.shanghai>.fkfs>li:last-child>b{float:left}.city>.row>div>.right>.shanghai>.fkfs>li:last-child>span{line-height:35px;margin-left:20px;font-size:17px}.city>.row>div>.right>.nantong{width:100%;text-align:left}.city>.row>div>.right>.nantong>h5{font-size:25px;height:50px}.city>.row>div>.right>.nantong>.gsdz{overflow:hidden;list-style:none}.city>.row>div>.right>.nantong>.gsdz>li{overflow:hidden}.city>.row>div>.right>.nantong>.gsdz>li>b{float:left;font-size:16px;line-height:35px;color:#666;font-weight:800}.city>.row>div>.right>.nantong>.gsdz>li>span{float:left;font-size:16px;line-height:30px;color:#666;width:500px}.city>.row>div>.right>.nantong>h6{font-size:20px;margin:50px 0 10px;font-weight:700}.city>.row>div>.right>.nantong>.fkfs{overflow:hidden}.city>.row>div>.right>.nantong>.fkfs>li{overflow:hidden;border-bottom:1px solid #dcdcdc;padding:20px 0}.city>.row>div>.right>.nantong>.fkfs>li:last-child{border-bottom:0}.city>.row>div>.right>.beijing>.fkfs>li,.city>.row>div>.right>.dongguan>.fkfs>li,.city>.row>div>.right>.guangzhou>.fkfs>li,.city>.row>div>.right>.shenzhen>.fkfs>li,.city>.row>div>.right>.suzhou>.fkfs>li{overflow:hidden;border-bottom:1px solid #dcdcdc;padding:20px 0}.city>.row>div>.right>.nantong>.fkfs>li:last-child span,.city>.row>div>.right>.nantong>.fkfs>li:last-child>b{float:left}.city>.row>div>.right>.nantong>.fkfs>li:last-child>span{line-height:35px;margin-left:20px;font-size:17px}.city>.row>div>.right>.shenzhen{width:100%;text-align:left}.city>.row>div>.right>.shenzhen>h5{font-size:25px;height:50px}.city>.row>div>.right>.shenzhen>.gsdz{overflow:hidden;list-style:none}.city>.row>div>.right>.shenzhen>.gsdz>li{overflow:hidden}.city>.row>div>.right>.shenzhen>.gsdz>li>b{float:left;font-size:16px;line-height:35px;color:#666;font-weight:800}.city>.row>div>.right>.shenzhen>.gsdz>li>span{float:left;font-size:16px;line-height:30px;color:#666;width:500px}.city>.row>div>.right>.shenzhen>h6{font-size:20px;margin:50px 0 10px;font-weight:700}.city>.row>div>.right>.shenzhen>.fkfs{overflow:hidden}.city>.row>div>.right>.shenzhen>.fkfs>li span,.city>.row>div>.right>.shenzhen>.fkfs>li>b{float:left}.city>.row>div>.right>.shenzhen>.fkfs>li>span{line-height:35px;margin-left:20px;font-size:17px}.city>.row>div>.right>.guangzhou{width:100%;text-align:left}.city>.row>div>.right>.guangzhou>h5{font-size:25px;height:50px}.city>.row>div>.right>.guangzhou>.gsdz{overflow:hidden;list-style:none}.city>.row>div>.right>.guangzhou>.gsdz>li{overflow:hidden}.city>.row>div>.right>.guangzhou>.gsdz>li>b{float:left;font-size:16px;line-height:35px;color:#666;font-weight:800}.city>.row>div>.right>.guangzhou>.gsdz>li>span{float:left;font-size:16px;line-height:30px;color:#666;width:500px}.city>.row>div>.right>.guangzhou>h6{font-size:20px;margin:50px 0 10px;font-weight:700}.city>.row>div>.right>.guangzhou>.fkfs{overflow:hidden}.city>.row>div>.right>.guangzhou>.fkfs>li span,.city>.row>div>.right>.guangzhou>.fkfs>li>b{float:left}.city>.row>div>.right>.guangzhou>.fkfs>li>span{line-height:35px;margin-left:20px;font-size:17px}.city>.row>div>.right>.suzhou{width:100%;text-align:left}.city>.row>div>.right>.suzhou>h5{font-size:25px;height:50px}.city>.row>div>.right>.suzhou>.gsdz{overflow:hidden;list-style:none}.city>.row>div>.right>.suzhou>.gsdz>li{overflow:hidden}.city>.row>div>.right>.suzhou>.gsdz>li>b{float:left;font-size:16px;line-height:35px;color:#666;font-weight:800}.city>.row>div>.right>.suzhou>.gsdz>li>span{float:left;font-size:16px;line-height:30px;color:#666;width:500px}.city>.row>div>.right>.suzhou>h6{font-size:20px;margin:50px 0 10px;font-weight:700}.city>.row>div>.right>.suzhou>.fkfs{overflow:hidden}.city>.row>div>.right>.suzhou>.fkfs>li span,.city>.row>div>.right>.suzhou>.fkfs>li>b{float:left}.city>.row>div>.right>.suzhou>.fkfs>li>span{line-height:35px;margin-left:20px;font-size:17px}.city>.row>div>.right>.dongguan{width:100%;text-align:left}.city>.row>div>.right>.dongguan>h5{font-size:25px;height:50px}.city>.row>div>.right>.dongguan>.gsdz{overflow:hidden;list-style:none}.city>.row>div>.right>.dongguan>.gsdz>li{overflow:hidden}.city>.row>div>.right>.dongguan>.gsdz>li>b{float:left;font-size:16px;line-height:35px;color:#666;font-weight:800}.city>.row>div>.right>.dongguan>.gsdz>li>span{float:left;font-size:16px;line-height:30px;color:#666;width:500px}.city>.row>div>.right>.dongguan>h6{font-size:20px;margin:50px 0 10px;font-weight:700}.city>.row>div>.right>.dongguan>.fkfs{overflow:hidden}.city>.row>div>.right>.dongguan>.fkfs>li span,.city>.row>div>.right>.dongguan>.fkfs>li>b{float:left}.city>.row>div>.right>.dongguan>.fkfs>li>span{line-height:35px;margin-left:20px;font-size:17px}.city>.row>div>.right>.beijing{width:100%;text-align:left}.city>.row>div>.right>.beijing>h5{font-size:25px;height:50px}.city>.row>div>.right>.beijing>.gsdz{overflow:hidden;list-style:none}.city>.row>div>.right>.beijing>.gsdz>li{overflow:hidden}.city>.row>div>.right>.beijing>.gsdz>li>b{float:left;font-size:16px;line-height:35px;color:#666;font-weight:800}.city>.row>div>.right>.beijing>.gsdz>li>span{float:left;font-size:16px;line-height:30px;color:#666;width:500px}.city>.row>div>.right>.beijing>h6{font-size:20px;margin:50px 0 10px;font-weight:700}.city>.row>div>.right>.beijing>.fkfs{overflow:hidden}.city>.row>div>.right>.beijing>.fkfs>li span,.city>.row>div>.right>.beijing>.fkfs>li>b{float:left}.city>.row>div>.right>.beijing>.fkfs>li>span{line-height:35px;margin-left:20px;font-size:17px}}@media screen and (max-width:767px){.ban:before,.ban>p{display:inline-block}.ban,.ban>p{text-align:center;overflow:hidden}.ban:before,.ban>p:before{content:"";font-size:0;vertical-align:middle}.ban:before,.ban>p,.ban>p:before,.ban>p>b,.ban>p>span{vertical-align:middle}.ban,.ban>p,.right>div>.fkfs,.right>div>.gsdz,.right>div>.gsdz>li{overflow:hidden}.row{padding:0 10px}.col-lg-6{padding:0}.col-lg-12{padding-right:0}.ban{width:100%;height:500px;margin-top:70px;zoom:.35;position:relative;background:url(../images/img-lyw/banner2.jpg) center center no-repeat}.ban:before{width:0;height:100%}.ban>p{width:439px;height:298px;margin:0 auto;letter-spacing:2px;background:url(../images/img-lyw/banner2-bg.png) center center no-repeat}.ban>p>span,.ban>p>span>u{line-height:60px;color:#fff;text-align:left;display:inline-block}.ban>p:before{display:inline-block;width:0;height:100%}.ban>p>b{display:inline-block;font-size:150px;color:#fff}.ban>p>span{font-size:55px}.ban>p>span>u{font-size:48px}.city>.row>ul{padding-left:0;width:100%;position:fixed;left:0;bottom:auto;top:51px;z-index:2147483637}.city>.row>ul>li{width:14%;display:inline-block;margin-bottom:0;float:left;background:#D2D2D2;padding:0;font-size:15px;line-height:20px;cursor:pointer;text-align:center}.city>.row>ul>li>a>i{font-size:20px;color:#666;display:inline-block;margin-left:2px}.city>.row>ul>li>a>b{font-size:18px;font-weight:900;color:#666;display:inline-block;vertical-align:top}.right>div{width:100%;padding:0 5px;text-align:left;margin-top:20px}.right>div>h5{font-size:22px;height:auto;line-height:25px;margin-bottom:10px}.right>div>.gsdz>li>b{float:none;font-size:14px;line-height:22px;color:#666;font-weight:800}.right>div>.gsdz>li>span{float:none;font-size:14px;line-height:22px;color:#666;width:inherit}.right>div>h6{font-size:18px;margin:20px 0 10px}.right>div>.fkfs>li{overflow:hidden;padding:10px 0;border-bottom:#D2D2D2 1px solid}.right>div>.fkfs>li>b{float:left;width:100%}.right>div>.fkfs>li>span{float:left;font-size:14px;line-height:22px;color:#666}}
+@charset "utf-8";
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+.col-lg-6 {
+    padding: 0;
+    margin: 0;
+}
+
+.col-lg-12 {
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (min-width:768px) {
+    .ban,
+    .ban>p {
+        text-align: center;
+        overflow: hidden
+    }
+    .ban:before,
+    .ban>p:before {
+        content: "";
+        font-size: 0;
+        vertical-align: middle
+    }
+    .ban:before,
+    .ban>p,
+    .ban>p:before,
+    .ban>p>b,
+    .ban>p>span {
+        vertical-align: middle
+    }
+    .ban>p>span,
+    .ban>p>span>u {
+        color: #fff;
+        line-height: 60px;
+        display: inline-block
+    }
+    .ban:before,
+    .ban>p,
+    .ban>p:before,
+    .ban>p>b,
+    .ban>p>span,
+    .ban>p>span>u,
+    .city>.row>ul>li>a>b {
+        display: inline-block
+    }
+    .col-lg-12,
+    .col-lg-6,
+    .container-fluid,
+    .row {
+        padding: 0
+    }
+    .ban {
+        width: 100%;
+        height: 563px;
+        position: relative;
+        background: url(../images/img-lyw/banner2.jpg) center center no-repeat
+    }
+    .ban:before {
+        width: 0;
+        height: 100%
+    }
+    .ban>p {
+        width: 439px;
+        height: 298px;
+        margin: 100px auto 0;
+        letter-spacing: 2px;
+        background: url(../images/img-lyw/banner2-bg.png) center center no-repeat
+    }
+    .ban>p:before {
+        width: 0;
+        height: 100%
+    }
+    .ban>p>b {
+        font-size: 150px;
+        color: #fff
+    }
+    .ban>p>span {
+        font-size: 55px;
+        text-align: left
+    }
+    .ban>p>span>u {
+        font-size: 45px;
+        text-align: left
+    }
+    .city>.row>ul {
+        overflow: hidden;
+        list-style: none;
+        height: 100%;
+        background: #fff;
+        padding-left: 17%;
+        margin: 0
+    }
+    .city>.row>ul>li {
+        float: left;
+        width: 130px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 25px;
+        margin-left: 20px;
+        padding: 0 20px;
+        background: rgba(101, 113, 126, .548)
+    }
+    .city>.row>ul>li>a {
+        color: rgba(0, 0, 0, .425)
+    }
+    .city>.row>ul>li>a>i {
+        font-size: 28px;
+        color: #666
+    }
+    .city>.row>ul>li>a>b {
+        font-size: 25px;
+        font-weight: 900;
+        color: #666;
+        vertical-align: top
+    }
+    .city>.row>ul.bx {
+        position: fixed;
+        left: 0;
+        top: 150px;
+        height: auto;
+        z-index: 100;
+        padding-left: 1px;
+        width: 100px;
+        background: #fff
+    }
+    .city>.row>ul.bx>li {
+        float: none;
+        width: 100px;
+        height: 60px;
+        line-height: 60px;
+        font-size: 20px;
+        margin-left: 0;
+        padding: 0 2px;
+        background: rgba(101, 113, 126, .548);
+        margin-bottom: 1px;
+        border-radius: 5px
+    }
+    .city>.row>div {
+        height: 650px;
+        padding-top: 20px
+    }
+    .city>.row>div>.left {
+        height: 80%;
+        padding: 50px 0;
+        margin-left: 120px
+    }
+    .city>.row>div>.col-lg-6 {
+        padding: 0
+    }
+    .city>.row>div>.right {
+        height: 80%;
+        padding: 50px 0 0 50px
+    }
+    .city>.row>div>.right>.shanghai {
+        width: 100%;
+        text-align: left
+    }
+    .city>.row>div>.right>.shanghai>h5 {
+        font-size: 25px;
+        height: 50px
+    }
+    .city>.row>div>.right>.shanghai>.gsdz {
+        overflow: hidden;
+        list-style: none
+    }
+    .city>.row>div>.right>.shanghai>.gsdz>li {
+        overflow: hidden
+    }
+    .city>.row>div>.right>.shanghai>.gsdz>li>b {
+        float: left;
+        font-size: 16px;
+        line-height: 35px;
+        color: #666;
+        font-weight: 800
+    }
+    .city>.row>div>.right>.shanghai>.gsdz>li>span {
+        float: left;
+        font-size: 16px;
+        line-height: 30px;
+        color: #666;
+        width: 500px
+    }
+    .city>.row>div>.right>.shanghai>h6 {
+        font-size: 20px;
+        margin: 50px 0 10px;
+        font-weight: 700
+    }
+    .city>.row>div>.right>.shanghai>.fkfs {
+        overflow: hidden
+    }
+    .city>.row>div>.right>.shanghai>.fkfs>li {
+        overflow: hidden;
+        border-bottom: 1px solid #dcdcdc;
+        padding: 20px 0
+    }
+    .city>.row>div>.right>.shanghai>.fkfs>li:last-child {
+        border-bottom: 0
+    }
+    .city>.row>div>.right>.shanghai>.fkfs>li:last-child span,
+    .city>.row>div>.right>.shanghai>.fkfs>li:last-child>b {
+        float: left
+    }
+    .city>.row>div>.right>.shanghai>.fkfs>li:last-child>span {
+        line-height: 35px;
+        margin-left: 20px;
+        font-size: 17px
+    }
+    .city>.row>div>.right>.nantong {
+        width: 100%;
+        text-align: left
+    }
+    .city>.row>div>.right>.nantong>h5 {
+        font-size: 25px;
+        height: 50px
+    }
+    .city>.row>div>.right>.nantong>.gsdz {
+        overflow: hidden;
+        list-style: none
+    }
+    .city>.row>div>.right>.nantong>.gsdz>li {
+        overflow: hidden
+    }
+    .city>.row>div>.right>.nantong>.gsdz>li>b {
+        float: left;
+        font-size: 16px;
+        line-height: 35px;
+        color: #666;
+        font-weight: 800
+    }
+    .city>.row>div>.right>.nantong>.gsdz>li>span {
+        float: left;
+        font-size: 16px;
+        line-height: 30px;
+        color: #666;
+        width: 500px
+    }
+    .city>.row>div>.right>.nantong>h6 {
+        font-size: 20px;
+        margin: 50px 0 10px;
+        font-weight: 700
+    }
+    .city>.row>div>.right>.nantong>.fkfs {
+        overflow: hidden
+    }
+    .city>.row>div>.right>.nantong>.fkfs>li {
+        overflow: hidden;
+        border-bottom: 1px solid #dcdcdc;
+        padding: 20px 0
+    }
+    .city>.row>div>.right>.nantong>.fkfs>li:last-child {
+        border-bottom: 0
+    }
+    .city>.row>div>.right>.beijing>.fkfs>li,
+    .city>.row>div>.right>.dongguan>.fkfs>li,
+    .city>.row>div>.right>.guangzhou>.fkfs>li,
+    .city>.row>div>.right>.shenzhen>.fkfs>li,
+    .city>.row>div>.right>.suzhou>.fkfs>li {
+        overflow: hidden;
+        border-bottom: 1px solid #dcdcdc;
+        padding: 20px 0
+    }
+    .city>.row>div>.right>.nantong>.fkfs>li:last-child span,
+    .city>.row>div>.right>.nantong>.fkfs>li:last-child>b {
+        float: left
+    }
+    .city>.row>div>.right>.nantong>.fkfs>li:last-child>span {
+        line-height: 35px;
+        margin-left: 20px;
+        font-size: 17px
+    }
+    .city>.row>div>.right>.shenzhen {
+        width: 100%;
+        text-align: left
+    }
+    .city>.row>div>.right>.shenzhen>h5 {
+        font-size: 25px;
+        height: 50px
+    }
+    .city>.row>div>.right>.shenzhen>.gsdz {
+        overflow: hidden;
+        list-style: none
+    }
+    .city>.row>div>.right>.shenzhen>.gsdz>li {
+        overflow: hidden
+    }
+    .city>.row>div>.right>.shenzhen>.gsdz>li>b {
+        float: left;
+        font-size: 16px;
+        line-height: 35px;
+        color: #666;
+        font-weight: 800
+    }
+    .city>.row>div>.right>.shenzhen>.gsdz>li>span {
+        float: left;
+        font-size: 16px;
+        line-height: 30px;
+        color: #666;
+        width: 500px
+    }
+    .city>.row>div>.right>.shenzhen>h6 {
+        font-size: 20px;
+        margin: 50px 0 10px;
+        font-weight: 700
+    }
+    .city>.row>div>.right>.shenzhen>.fkfs {
+        overflow: hidden
+    }
+    .city>.row>div>.right>.shenzhen>.fkfs>li span,
+    .city>.row>div>.right>.shenzhen>.fkfs>li>b {
+        float: left
+    }
+    .city>.row>div>.right>.shenzhen>.fkfs>li>span {
+        line-height: 35px;
+        margin-left: 20px;
+        font-size: 17px
+    }
+    .city>.row>div>.right>.guangzhou {
+        width: 100%;
+        text-align: left
+    }
+    .city>.row>div>.right>.guangzhou>h5 {
+        font-size: 25px;
+        height: 50px
+    }
+    .city>.row>div>.right>.guangzhou>.gsdz {
+        overflow: hidden;
+        list-style: none
+    }
+    .city>.row>div>.right>.guangzhou>.gsdz>li {
+        overflow: hidden
+    }
+    .city>.row>div>.right>.guangzhou>.gsdz>li>b {
+        float: left;
+        font-size: 16px;
+        line-height: 35px;
+        color: #666;
+        font-weight: 800
+    }
+    .city>.row>div>.right>.guangzhou>.gsdz>li>span {
+        float: left;
+        font-size: 16px;
+        line-height: 30px;
+        color: #666;
+        width: 500px
+    }
+    .city>.row>div>.right>.guangzhou>h6 {
+        font-size: 20px;
+        margin: 50px 0 10px;
+        font-weight: 700
+    }
+    .city>.row>div>.right>.guangzhou>.fkfs {
+        overflow: hidden
+    }
+    .city>.row>div>.right>.guangzhou>.fkfs>li span,
+    .city>.row>div>.right>.guangzhou>.fkfs>li>b {
+        float: left
+    }
+    .city>.row>div>.right>.guangzhou>.fkfs>li>span {
+        line-height: 35px;
+        margin-left: 20px;
+        font-size: 17px
+    }
+    .city>.row>div>.right>.suzhou {
+        width: 100%;
+        text-align: left
+    }
+    .city>.row>div>.right>.suzhou>h5 {
+        font-size: 25px;
+        height: 50px
+    }
+    .city>.row>div>.right>.suzhou>.gsdz {
+        overflow: hidden;
+        list-style: none
+    }
+    .city>.row>div>.right>.suzhou>.gsdz>li {
+        overflow: hidden
+    }
+    .city>.row>div>.right>.suzhou>.gsdz>li>b {
+        float: left;
+        font-size: 16px;
+        line-height: 35px;
+        color: #666;
+        font-weight: 800
+    }
+    .city>.row>div>.right>.suzhou>.gsdz>li>span {
+        float: left;
+        font-size: 16px;
+        line-height: 30px;
+        color: #666;
+        width: 500px
+    }
+    .city>.row>div>.right>.suzhou>h6 {
+        font-size: 20px;
+        margin: 50px 0 10px;
+        font-weight: 700
+    }
+    .city>.row>div>.right>.suzhou>.fkfs {
+        overflow: hidden
+    }
+    .city>.row>div>.right>.suzhou>.fkfs>li span,
+    .city>.row>div>.right>.suzhou>.fkfs>li>b {
+        float: left
+    }
+    .city>.row>div>.right>.suzhou>.fkfs>li>span {
+        line-height: 35px;
+        margin-left: 20px;
+        font-size: 17px
+    }
+    .city>.row>div>.right>.dongguan {
+        width: 100%;
+        text-align: left
+    }
+    .city>.row>div>.right>.dongguan>h5 {
+        font-size: 25px;
+        height: 50px
+    }
+    .city>.row>div>.right>.dongguan>.gsdz {
+        overflow: hidden;
+        list-style: none
+    }
+    .city>.row>div>.right>.dongguan>.gsdz>li {
+        overflow: hidden
+    }
+    .city>.row>div>.right>.dongguan>.gsdz>li>b {
+        float: left;
+        font-size: 16px;
+        line-height: 35px;
+        color: #666;
+        font-weight: 800
+    }
+    .city>.row>div>.right>.dongguan>.gsdz>li>span {
+        float: left;
+        font-size: 16px;
+        line-height: 30px;
+        color: #666;
+        width: 500px
+    }
+    .city>.row>div>.right>.dongguan>h6 {
+        font-size: 20px;
+        margin: 50px 0 10px;
+        font-weight: 700
+    }
+    .city>.row>div>.right>.dongguan>.fkfs {
+        overflow: hidden
+    }
+    .city>.row>div>.right>.dongguan>.fkfs>li span,
+    .city>.row>div>.right>.dongguan>.fkfs>li>b {
+        float: left
+    }
+    .city>.row>div>.right>.dongguan>.fkfs>li>span {
+        line-height: 35px;
+        margin-left: 20px;
+        font-size: 17px
+    }
+    .city>.row>div>.right>.beijing {
+        width: 100%;
+        text-align: left
+    }
+    .city>.row>div>.right>.beijing>h5 {
+        font-size: 25px;
+        height: 50px
+    }
+    .city>.row>div>.right>.beijing>.gsdz {
+        overflow: hidden;
+        list-style: none
+    }
+    .city>.row>div>.right>.beijing>.gsdz>li {
+        overflow: hidden
+    }
+    .city>.row>div>.right>.beijing>.gsdz>li>b {
+        float: left;
+        font-size: 16px;
+        line-height: 35px;
+        color: #666;
+        font-weight: 800
+    }
+    .city>.row>div>.right>.beijing>.gsdz>li>span {
+        float: left;
+        font-size: 16px;
+        line-height: 30px;
+        color: #666;
+        width: 500px
+    }
+    .city>.row>div>.right>.beijing>h6 {
+        font-size: 20px;
+        margin: 50px 0 10px;
+        font-weight: 700
+    }
+    .city>.row>div>.right>.beijing>.fkfs {
+        overflow: hidden
+    }
+    .city>.row>div>.right>.beijing>.fkfs>li span,
+    .city>.row>div>.right>.beijing>.fkfs>li>b {
+        float: left
+    }
+    .city>.row>div>.right>.beijing>.fkfs>li>span {
+        line-height: 35px;
+        margin-left: 20px;
+        font-size: 17px
+    }
+}
+
+@media screen and (max-width:767px) {
+    .ban:before,
+    .ban>p {
+        display: inline-block
+    }
+    .ban,
+    .ban>p {
+        text-align: center;
+        overflow: hidden
+    }
+    .ban:before,
+    .ban>p:before {
+        content: "";
+        font-size: 0;
+        vertical-align: middle
+    }
+    .ban:before,
+    .ban>p,
+    .ban>p:before,
+    .ban>p>b,
+    .ban>p>span {
+        vertical-align: middle
+    }
+    .ban,
+    .ban>p,
+    .right>div>.fkfs,
+    .right>div>.gsdz,
+    .right>div>.gsdz>li {
+        overflow: hidden
+    }
+    .row {
+        padding: 0 10px
+    }
+    .col-lg-6 {
+        padding: 0
+    }
+    .col-lg-12 {
+        padding-right: 0
+    }
+    .ban {
+        width: 100%;
+        height: 500px;
+        margin-top: 70px;
+        zoom: .35;
+        position: relative;
+        background: url(../images/img-lyw/banner2.jpg) center center no-repeat
+    }
+    .ban:before {
+        width: 0;
+        height: 100%
+    }
+    .ban>p {
+        width: 439px;
+        height: 298px;
+        margin: 0 auto;
+        letter-spacing: 2px;
+        background: url(../images/img-lyw/banner2-bg.png) center center no-repeat
+    }
+    .ban>p>span,
+    .ban>p>span>u {
+        line-height: 60px;
+        color: #fff;
+        text-align: left;
+        display: inline-block
+    }
+    .ban>p:before {
+        display: inline-block;
+        width: 0;
+        height: 100%
+    }
+    .ban>p>b {
+        display: inline-block;
+        font-size: 150px;
+        color: #fff
+    }
+    .ban>p>span {
+        font-size: 55px
+    }
+    .ban>p>span>u {
+        font-size: 48px
+    }
+    .city>.row>ul {
+        padding-left: 0;
+        width: 100%;
+        position: fixed;
+        left: 0;
+        bottom: auto;
+        top: 51px;
+        z-index: 2147483637
+    }
+    .city>.row>ul>li {
+        width: 14%;
+        display: inline-block;
+        margin-bottom: 0;
+        float: left;
+        background: #D2D2D2;
+        padding: 0;
+        font-size: 15px;
+        line-height: 20px;
+        cursor: pointer;
+        text-align: center
+    }
+    .city>.row>ul>li>a>i {
+        font-size: 20px;
+        color: #666;
+        display: inline-block;
+        margin-left: 2px
+    }
+    .city>.row>ul>li>a>b {
+        font-size: 18px;
+        font-weight: 900;
+        color: #666;
+        display: inline-block;
+        vertical-align: top
+    }
+    .right>div {
+        width: 100%;
+        padding: 0 5px;
+        text-align: left;
+        margin-top: 20px
+    }
+    .right>div>h5 {
+        font-size: 22px;
+        height: auto;
+        line-height: 25px;
+        margin-bottom: 10px
+    }
+    .right>div>.gsdz>li>b {
+        float: none;
+        font-size: 14px;
+        line-height: 22px;
+        color: #666;
+        font-weight: 800
+    }
+    .right>div>.gsdz>li>span {
+        float: none;
+        font-size: 14px;
+        line-height: 22px;
+        color: #666;
+        width: inherit
+    }
+    .right>div>h6 {
+        font-size: 18px;
+        margin: 20px 0 10px
+    }
+    .right>div>.fkfs>li {
+        overflow: hidden;
+        padding: 10px 0;
+        border-bottom: #D2D2D2 1px solid
+    }
+    .right>div>.fkfs>li>b {
+        float: left;
+        width: 100%
+    }
+    .right>div>.fkfs>li>span {
+        float: left;
+        font-size: 14px;
+        line-height: 22px;
+        color: #666
+    }
+}

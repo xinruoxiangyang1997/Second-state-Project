@@ -1,1 +1,709 @@
-@charset "utf-8";@media screen and (min-width:768px){.ban>.row:before,.ban>.row>p{vertical-align:middle;display:inline-block}.ban,.ban>.row>p{overflow:hidden;text-align:center}.ban,.ban>.row>p,.ban>.row>p>b{text-align:center}.ban{width:100%;height:621px;position:relative;background:url(../images/img-lyw/banner3.jpg) center center no-repeat}.ban>.row:before{content:"";width:0;height:100%;font-size:0}.ban>.row>p{width:1200px;height:462px;margin:130px auto 0;letter-spacing:2px}.ban>.row>p>b{display:inline-block;float:left;margin-top:120px;color:#80D34F;width:743px;font-size:70px}.ban>.row>p>b>u{display:block;margin-top:30px;color:#fff;font-size:50px}.ban>.row>p>span{display:inline-block;float:right;width:457px}}@media screen and (max-width:767px){.ban>.row:before,.ban>.row>p{vertical-align:middle;display:inline-block}.ban,.ban>.row>p{overflow:hidden;text-align:center}.ban,.ban>.row>p,.ban>.row>p>b{text-align:center}.ban{width:100%;height:500px;margin-top:150px;zoom:.35;position:relative;background:url(../images/img-lyw/banner3.jpg) center center no-repeat}.ban>.row:before{content:"";width:0;height:100%;font-size:0}.ban>.row>p{zoom:.8;width:1200px;height:462px;margin:0 auto;letter-spacing:2px}.ban>.row>p>b{display:inline-block;float:left;margin-top:120px;color:#80D34F;width:743px;font-size:80px}.ban>.row>p>b>u{display:block;margin-top:30px;color:#fff;font-size:60px}.ban>.row>p>span{display:inline-block;float:right;width:457px}}@media screen and (min-width:768px){.youshi{padding:50px 0;width:100%;overflow:hidden}.youshi>.row{width:1300px;overflow:hidden;margin:0 auto;font-family:"微软雅黑"}.youshi>.row>h5{text-align:center;font-size:35px;position:relative;padding-bottom:15px}.youshi>.row>h5:after{content:"";position:absolute;bottom:0;height:13px;width:355px;background:url(../images/img-lyw/channel-title-bg.png) top center no-repeat;left:465px}.youshi>.row>ul{overflow:hidden;margin:50px 0 35px}.youshi>.row>ul>li{width:46%;float:left;margin-bottom:20px;overflow:hidden;padding:60px 40px 40px 110px;margin-right:55px;cursor:pointer;transition:all .3s}.youshi>.row>ul>li:hover{opacity:.8}.youshi>.row>ul>li:hover span,.youshi>.row>ul>li:hover>b{color:orange}.youshi>.row>ul>li>b{display:block;color:#fff;font-size:30px}.youshi>.row>ul>li>span{display:block;color:#fff;font-size:18px;line-height:35px;margin-top:20px}.youshi>.row>ul>li:nth-child(2n){margin-right:0}.youshi>.row>ul>li:nth-child(1){background:url(../images/img-lyw/ys-text1.png) 15px 15px no-repeat #382cd8}.youshi>.row>ul>li:nth-child(2){background:url(../images/img-lyw/ys-text2.png) 15px 15px no-repeat #0ce093}.youshi>.row>ul>li:nth-child(3){background:url(../images/img-lyw/ys-text3.png) 15px 15px no-repeat #3da2dd;margin-bottom:0}.youshi>.row>ul>li:nth-child(4){background:url(../images/img-lyw/ys-text4.png) 15px 15px no-repeat #36a0dd;margin-bottom:0}}@media screen and (max-width:767px){.youshi{padding:20px 15px 0;zoom:1}.youshi>.row{overflow:hidden;margin:0 auto}.youshi>.row>h5{text-align:center;font-size:25px;padding-bottom:10px;position:relative}.youshi>.row>h5:after{content:"";position:absolute;bottom:0;height:13px;width:100%;background:url(../images/img-lyw/channel-title-bg.png) top center no-repeat;left:1.8%;zoom:.6;z-index:2}.youshi>.row>ul{overflow:hidden;margin:30px 0 20px}.youshi>.row>ul>li{width:auto;float:none;margin-bottom:20px;overflow:hidden;padding:15px 20px 20px 110px;margin-right:0;cursor:pointer;transition:all .3s;zoom:1}.youshi>.row>ul>li>b{display:block;color:#fff;font-size:22px}.youshi>.row>ul>li>span{display:block;color:#fff;font-size:16px;line-height:25px;margin-top:10px}.youshi>.row>ul>li:nth-child(1){background:url(../images/img-lyw/ys-text1.png) 15px 15px no-repeat #2A785B}.youshi>.row>ul>li:nth-child(2){background:url(../images/img-lyw/ys-text2.png) 15px 15px no-repeat #1b940b}.youshi>.row>ul>li:nth-child(3){background:url(../images/img-lyw/ys-text3.png) 15px 15px no-repeat #315080}.youshi>.row>ul>li:nth-child(4){background:url(../images/img-lyw/ys-text4.png) 15px 15px no-repeat #370dce}}@media screen and (min-width:768px){.ad{background:#784892;text-align:center;padding:10px 0;overflow:hidden}.ad>p{padding:0;width:1000px;margin:0 auto;position:relative}.ad>p:after,.ad>p:before{content:"";display:inline-block;width:100px;height:1px;background:#fff;position:absolute;top:28px}.ad>p:before{left:0}.ad>p:after{right:0}}@media screen and (max-width:767px){.ad,.ad>p{background:#784892;text-align:center}.ad{zoom:.45;padding:30px 0;overflow:hidden}.ad>p{width:auto;margin:0 auto;position:relative;padding:10px 0}}@media screen and (min-width:768px){.zc,.zc>.row{width:100%;overflow:hidden}.zc,.zc>.row,.zc>.row>ul{overflow:hidden}.zc{padding:50px 0;background:#f5f5f5}.zc>.row{margin:0 auto;font-family:"微软雅黑"}.zc>.row>h5{text-align:center;font-size:35px;position:relative;padding-bottom:15px}.zc>.row>h5:after{content:"";position:absolute;bottom:0;height:13px;width:355px;background:url(../images/img-lyw/channel-title-bg.png) top center no-repeat;left:37%}.zc>.row>ul{padding:80px 0 50px;margin-left:115px}.zc>.row>ul>li{width:26%;float:left;padding:20px;margin-right:80px;cursor:pointer;border:1px solid #000;position:relative;height:230px;transition:all .3s}.zc>.row>ul>li>b{display:inline-block;font-size:25px;position:absolute;top:-22px;left:36%;background:#000;color:#fff;padding:5px 10px;transition:all .3s}.zc>.row>ul>li>b:hover{background:#df7f12}.zc>.row>ul>li>span{display:block;font-size:18px;line-height:30px;margin-top:20px;text-align:left}.zc>.row>ul>li:nth-child(3)>b{left:28%}}@media screen and (max-width:767px){.zc,.zc>.row,.zc>.row>ul{overflow:hidden}.zc{margin:20px 0;width:auto;padding:20px 15px 0;zoom:1}.zc>.row{width:100%;margin:0 auto}.zc>.row>h5{text-align:center;font-size:25px;position:relative;padding-bottom:10px}.zc>.row>h5:after{content:"";position:absolute;bottom:0;height:13px;width:60%;background:url(../images/img-lyw/channel-title-bg.png) top center no-repeat;background-size:100% 100%;left:20%}.zc>.row>ul{padding:40px 0 0}.zc>.row>ul>li{width:100%;float:none;padding:20px;margin-right:0;cursor:pointer;border:1px solid #000;position:relative;height:auto;margin-bottom:40px;transition:all .3s}.zc>.row>ul>li>b{display:inline-block;font-size:20px;position:absolute;top:-20px;background:#000;color:#fff;padding:5px 10px;transition:all .3s;left:35%}.zc>.row>ul>li>span{display:block;font-size:16px;line-height:25px;margin-top:10px;text-align:left}.zc>.row>ul>li:nth-child(3)>b{left:29%}}@media screen and (min-width:768px){.zixun{padding:50px 0 0;margin-bottom:50px;overflow:hidden}.zixun>.row{width:1300px;font-family:微软雅黑;overflow:hidden;margin:0 auto}.zixun>.row>h5{text-align:center;font-size:35px;position:relative;padding-bottom:15px}.zixun>.row>h5:after{content:"";position:absolute;bottom:0;height:13px;width:355px;background:url(../images/img-lyw/channel-title-bg.png) top center no-repeat;left:35%}.zixun>.row>ul{overflow:hidden;margin:50px 0 0}.zixun>.row>ul>li{width:25%;float:left;cursor:pointer;transition:all .3s;text-align:center;opacity:.8}.zixun>.row>ul>li:hover{opacity:1}.zixun>.row>ul>li:nth-child(1){background:#0f8d0f}.zixun>.row>ul>li:nth-child(2){background:orange}.zixun>.row>ul>li:nth-child(3){background:#784892}.zixun>.row>ul>li:nth-child(4){background:#135bb9}.zixun>.row>ul>li>.lxr{width:auto;margin:8px;border:1px solid #fff;height:479px}.zixun>.row>ul>li>.lxr>b{display:block;font-size:25px;color:#fff;margin:20px 0;position:relative;text-align:center}.zixun>.row>ul>li>.lxr>b:after{content:"";position:absolute;bottom:-10px;height:1px;width:300px;background:#fff;left:calc(1%)}.zixun>.row>ul>li>.lxr>p{display:block;height:80px;padding:0 10px}.zixun>.row>ul>li>.lxr>p>a{color:#fff;line-height:25px}.zixun>.row>ul>li>.lxr>p>a:hover{color:#d2691e}.zixun>.row>ul>li>.lxr>span{display:inline-block;width:auto;text-align:center;font-size:20px;line-height:50px;color:#fff}.zixun>.row>ul>li>.lxr>span>img{display:block}.zixun>.row>ul>li>.lxr>ul{width:90%;margin:0 auto 20px}.zixun>.row>ul>li>.lxr>ul>li{text-align:left;color:#fff;font-size:14px;line-height:30px}.zixun>.row>ul>li>.lxr>ul>li>u{font-size:18px}.zixun>.row>ul>li>.lxr>ul>li>u:before{content:"\e607";font-family:iconfont!important;color:#fff;margin-right:10px}}@media screen and (max-width:767px){.zixun{width:100%;padding:0 15px 0 5px;zoom:1;margin-bottom:20px}.zixun>.row>h5{text-align:center;font-size:25px;padding-bottom:10px;position:relative}.zixun>.row>h5:after{content:"";position:absolute;bottom:0;height:13px;width:60%;background:url(../images/img-lyw/channel-title-bg.png) top center no-repeat;background-size:100% 100%;left:20%}.zixun>.row>ul{overflow:hidden;margin:30px 0 0}.zixun>.row>ul>li{width:auto;float:none;cursor:pointer;transition:all .3s;text-align:center;padding:3px 0;margin-bottom:30px}.zixun>.row>ul>li>.lxr{height:479px;width:auto;margin:8px;border:1px solid #fff}.zixun>.row>ul>li>.lxr>b{display:block;font-size:25px;color:#fff;margin:20px 0;position:relative;text-align:center}.zixun>.row>ul>li>.lxr>b:after{content:"";position:absolute;bottom:-10px;height:1px;width:90%;background:#fff;left:calc(5%)}.zixun>.row>ul>li>.lxr>p{height:auto}.zixun>.row>ul>li>.lxr>p>a{color:#fff;line-height:25px}.zixun>.row>ul>li>.lxr>p>a:after{content:"、"}.zixun>.row>ul>li>.lxr>span{display:inline-block;width:auto;text-align:center;font-size:20px;line-height:50px;color:#fff}.zixun>.row>ul>li>.lxr>span>img{display:block}.zixun>.row>ul>li>.lxr>ul{width:280px;margin:0 auto 20px}.zixun>.row>ul>li>.lxr>ul>li{text-align:left;color:#fff;font-size:14px;line-height:30px}.zixun>.row>ul>li>.lxr>ul>li>u{font-size:18px}.zixun>.row>ul>li>.lxr>ul>li>u:before{content:"\e607";font-family:iconfont!important;color:#fff;margin-right:10px}.zixun>.row>ul>li:nth-child(1){background:#47BD59}.zixun>.row>ul>li:nth-child(2){background:#F3862C}.zixun>.row>ul>li:nth-child(3){background:#AE74CD}.zixun>.row>ul>li:nth-child(4){background:#107EB1}}
+@charset "utf-8";
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+.col-lg-6 {
+    padding: 0;
+    margin: 0;
+}
+
+.col-lg-12 {
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (min-width:768px) {
+    .ban>.row:before,
+    .ban>.row>p {
+        vertical-align: middle;
+        display: inline-block
+    }
+    .ban,
+    .ban>.row>p {
+        overflow: hidden;
+        text-align: center
+    }
+    .ban,
+    .ban>.row>p,
+    .ban>.row>p>b {
+        text-align: center
+    }
+    .ban {
+        width: 100%;
+        height: 621px;
+        position: relative;
+        background: url(../images/img-lyw/banner3.jpg) center center no-repeat
+    }
+    .ban>.row:before {
+        content: "";
+        width: 0;
+        height: 100%;
+        font-size: 0
+    }
+    .ban>.row>p {
+        width: 1200px;
+        height: 462px;
+        margin: 130px auto 0;
+        letter-spacing: 2px
+    }
+    .ban>.row>p>b {
+        display: inline-block;
+        float: left;
+        margin-top: 120px;
+        color: #80D34F;
+        width: 743px;
+        font-size: 70px
+    }
+    .ban>.row>p>b>u {
+        display: block;
+        margin-top: 30px;
+        color: #fff;
+        font-size: 50px
+    }
+    .ban>.row>p>span {
+        display: inline-block;
+        float: right;
+        width: 457px
+    }
+}
+
+@media screen and (max-width:767px) {
+    .ban>.row:before,
+    .ban>.row>p {
+        vertical-align: middle;
+        display: inline-block
+    }
+    .ban,
+    .ban>.row>p {
+        overflow: hidden;
+        text-align: center
+    }
+    .ban,
+    .ban>.row>p,
+    .ban>.row>p>b {
+        text-align: center
+    }
+    .ban {
+        width: 100%;
+        height: 500px;
+        margin-top: 150px;
+        zoom: .35;
+        position: relative;
+        background: url(../images/img-lyw/banner3.jpg) center center no-repeat
+    }
+    .ban>.row:before {
+        content: "";
+        width: 0;
+        height: 100%;
+        font-size: 0
+    }
+    .ban>.row>p {
+        zoom: .8;
+        width: 1200px;
+        height: 462px;
+        margin: 0 auto;
+        letter-spacing: 2px
+    }
+    .ban>.row>p>b {
+        display: inline-block;
+        float: left;
+        margin-top: 120px;
+        color: #80D34F;
+        width: 743px;
+        font-size: 80px
+    }
+    .ban>.row>p>b>u {
+        display: block;
+        margin-top: 30px;
+        color: #fff;
+        font-size: 60px
+    }
+    .ban>.row>p>span {
+        display: inline-block;
+        float: right;
+        width: 457px
+    }
+}
+
+@media screen and (min-width:768px) {
+    .youshi {
+        padding: 50px 0;
+        width: 100%;
+        overflow: hidden
+    }
+    .youshi>.row {
+        width: 1300px;
+        overflow: hidden;
+        margin: 0 auto;
+        font-family: "微软雅黑"
+    }
+    .youshi>.row>h5 {
+        text-align: center;
+        font-size: 35px;
+        position: relative;
+        padding-bottom: 15px
+    }
+    .youshi>.row>h5:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        height: 13px;
+        width: 355px;
+        background: url(../images/img-lyw/channel-title-bg.png) top center no-repeat;
+        left: 465px
+    }
+    .youshi>.row>ul {
+        overflow: hidden;
+        margin: 50px 0 35px
+    }
+    .youshi>.row>ul>li {
+        width: 46%;
+        float: left;
+        margin-bottom: 20px;
+        overflow: hidden;
+        padding: 60px 40px 40px 110px;
+        margin-right: 55px;
+        cursor: pointer;
+        transition: all .3s
+    }
+    .youshi>.row>ul>li:hover {
+        opacity: .8
+    }
+    .youshi>.row>ul>li:hover span,
+    .youshi>.row>ul>li:hover>b {
+        color: orange
+    }
+    .youshi>.row>ul>li>b {
+        display: block;
+        color: #fff;
+        font-size: 30px
+    }
+    .youshi>.row>ul>li>span {
+        display: block;
+        color: #fff;
+        font-size: 18px;
+        line-height: 35px;
+        margin-top: 20px
+    }
+    .youshi>.row>ul>li:nth-child(2n) {
+        margin-right: 0
+    }
+    .youshi>.row>ul>li:nth-child(1) {
+        background: url(../images/img-lyw/ys-text1.png) 15px 15px no-repeat #382cd8
+    }
+    .youshi>.row>ul>li:nth-child(2) {
+        background: url(../images/img-lyw/ys-text2.png) 15px 15px no-repeat #0ce093
+    }
+    .youshi>.row>ul>li:nth-child(3) {
+        background: url(../images/img-lyw/ys-text3.png) 15px 15px no-repeat #3da2dd;
+        margin-bottom: 0
+    }
+    .youshi>.row>ul>li:nth-child(4) {
+        background: url(../images/img-lyw/ys-text4.png) 15px 15px no-repeat #36a0dd;
+        margin-bottom: 0
+    }
+}
+
+@media screen and (max-width:767px) {
+    .youshi {
+        padding: 20px 15px 0;
+        zoom: 1
+    }
+    .youshi>.row {
+        overflow: hidden;
+        margin: 0 auto
+    }
+    .youshi>.row>h5 {
+        text-align: center;
+        font-size: 25px;
+        padding-bottom: 10px;
+        position: relative
+    }
+    .youshi>.row>h5:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        height: 13px;
+        width: 100%;
+        background: url(../images/img-lyw/channel-title-bg.png) top center no-repeat;
+        left: 1.8%;
+        zoom: .6;
+        z-index: 2
+    }
+    .youshi>.row>ul {
+        overflow: hidden;
+        margin: 30px 0 20px
+    }
+    .youshi>.row>ul>li {
+        width: auto;
+        float: none;
+        margin-bottom: 20px;
+        overflow: hidden;
+        padding: 15px 20px 20px 110px;
+        margin-right: 0;
+        cursor: pointer;
+        transition: all .3s;
+        zoom: 1
+    }
+    .youshi>.row>ul>li>b {
+        display: block;
+        color: #fff;
+        font-size: 22px
+    }
+    .youshi>.row>ul>li>span {
+        display: block;
+        color: #fff;
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 10px
+    }
+    .youshi>.row>ul>li:nth-child(1) {
+        background: url(../images/img-lyw/ys-text1.png) 15px 15px no-repeat #2A785B
+    }
+    .youshi>.row>ul>li:nth-child(2) {
+        background: url(../images/img-lyw/ys-text2.png) 15px 15px no-repeat #1b940b
+    }
+    .youshi>.row>ul>li:nth-child(3) {
+        background: url(../images/img-lyw/ys-text3.png) 15px 15px no-repeat #315080
+    }
+    .youshi>.row>ul>li:nth-child(4) {
+        background: url(../images/img-lyw/ys-text4.png) 15px 15px no-repeat #370dce
+    }
+}
+
+@media screen and (min-width:768px) {
+    .ad {
+        background: #784892;
+        text-align: center;
+        padding: 10px 0;
+        overflow: hidden
+    }
+    .ad>p {
+        padding: 0;
+        width: 1000px;
+        margin: 0 auto;
+        position: relative
+    }
+    .ad>p:after,
+    .ad>p:before {
+        content: "";
+        display: inline-block;
+        width: 100px;
+        height: 1px;
+        background: #fff;
+        position: absolute;
+        top: 28px
+    }
+    .ad>p:before {
+        left: 0
+    }
+    .ad>p:after {
+        right: 0
+    }
+}
+
+@media screen and (max-width:767px) {
+    .ad,
+    .ad>p {
+        background: #784892;
+        text-align: center
+    }
+    .ad {
+        zoom: .45;
+        padding: 30px 0;
+        overflow: hidden
+    }
+    .ad>p {
+        width: auto;
+        margin: 0 auto;
+        position: relative;
+        padding: 10px 0
+    }
+}
+
+@media screen and (min-width:768px) {
+    .zc,
+    .zc>.row {
+        width: 100%;
+        overflow: hidden
+    }
+    .zc,
+    .zc>.row,
+    .zc>.row>ul {
+        overflow: hidden
+    }
+    .zc {
+        padding: 50px 0;
+        background: #f5f5f5
+    }
+    .zc>.row {
+        margin: 0 auto;
+        font-family: "微软雅黑"
+    }
+    .zc>.row>h5 {
+        text-align: center;
+        font-size: 35px;
+        position: relative;
+        padding-bottom: 15px
+    }
+    .zc>.row>h5:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        height: 13px;
+        width: 355px;
+        background: url(../images/img-lyw/channel-title-bg.png) top center no-repeat;
+        left: 37%
+    }
+    .zc>.row>ul {
+        padding: 80px 0 50px;
+        margin-left: 115px
+    }
+    .zc>.row>ul>li {
+        width: 26%;
+        float: left;
+        padding: 20px;
+        margin-right: 80px;
+        cursor: pointer;
+        border: 1px solid #000;
+        position: relative;
+        height: 230px;
+        transition: all .3s
+    }
+    .zc>.row>ul>li>b {
+        display: inline-block;
+        font-size: 25px;
+        position: absolute;
+        top: -22px;
+        left: 36%;
+        background: #000;
+        color: #fff;
+        padding: 5px 10px;
+        transition: all .3s
+    }
+    .zc>.row>ul>li>b:hover {
+        background: #df7f12
+    }
+    .zc>.row>ul>li>span {
+        display: block;
+        font-size: 18px;
+        line-height: 30px;
+        margin-top: 20px;
+        text-align: left
+    }
+    .zc>.row>ul>li:nth-child(3)>b {
+        left: 28%
+    }
+}
+
+@media screen and (max-width:767px) {
+    .zc,
+    .zc>.row,
+    .zc>.row>ul {
+        overflow: hidden
+    }
+    .zc {
+        margin: 20px 0;
+        width: auto;
+        padding: 20px 15px 0;
+        zoom: 1
+    }
+    .zc>.row {
+        width: 100%;
+        margin: 0 auto
+    }
+    .zc>.row>h5 {
+        text-align: center;
+        font-size: 25px;
+        position: relative;
+        padding-bottom: 10px
+    }
+    .zc>.row>h5:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        height: 13px;
+        width: 60%;
+        background: url(../images/img-lyw/channel-title-bg.png) top center no-repeat;
+        background-size: 100% 100%;
+        left: 20%
+    }
+    .zc>.row>ul {
+        padding: 40px 0 0
+    }
+    .zc>.row>ul>li {
+        width: 100%;
+        float: none;
+        padding: 20px;
+        margin-right: 0;
+        cursor: pointer;
+        border: 1px solid #000;
+        position: relative;
+        height: auto;
+        margin-bottom: 40px;
+        transition: all .3s
+    }
+    .zc>.row>ul>li>b {
+        display: inline-block;
+        font-size: 20px;
+        position: absolute;
+        top: -20px;
+        background: #000;
+        color: #fff;
+        padding: 5px 10px;
+        transition: all .3s;
+        left: 35%
+    }
+    .zc>.row>ul>li>span {
+        display: block;
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 10px;
+        text-align: left
+    }
+    .zc>.row>ul>li:nth-child(3)>b {
+        left: 29%
+    }
+}
+
+@media screen and (min-width:768px) {
+    .zixun {
+        padding: 50px 0 0;
+        margin-bottom: 50px;
+        overflow: hidden
+    }
+    .zixun>.row {
+        width: 1300px;
+        font-family: 微软雅黑;
+        overflow: hidden;
+        margin: 0 auto
+    }
+    .zixun>.row>h5 {
+        text-align: center;
+        font-size: 35px;
+        position: relative;
+        padding-bottom: 15px
+    }
+    .zixun>.row>h5:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        height: 13px;
+        width: 355px;
+        background: url(../images/img-lyw/channel-title-bg.png) top center no-repeat;
+        left: 35%
+    }
+    .zixun>.row>ul {
+        overflow: hidden;
+        margin: 50px 0 0
+    }
+    .zixun>.row>ul>li {
+        width: 25%;
+        float: left;
+        cursor: pointer;
+        transition: all .3s;
+        text-align: center;
+        opacity: .8
+    }
+    .zixun>.row>ul>li:hover {
+        opacity: 1
+    }
+    .zixun>.row>ul>li:nth-child(1) {
+        background: #0f8d0f
+    }
+    .zixun>.row>ul>li:nth-child(2) {
+        background: orange
+    }
+    .zixun>.row>ul>li:nth-child(3) {
+        background: #784892
+    }
+    .zixun>.row>ul>li:nth-child(4) {
+        background: #135bb9
+    }
+    .zixun>.row>ul>li>.lxr {
+        width: auto;
+        margin: 8px;
+        border: 1px solid #fff;
+        height: 479px
+    }
+    .zixun>.row>ul>li>.lxr>b {
+        display: block;
+        font-size: 25px;
+        color: #fff;
+        margin: 20px 0;
+        position: relative;
+        text-align: center
+    }
+    .zixun>.row>ul>li>.lxr>b:after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        height: 1px;
+        width: 300px;
+        background: #fff;
+        left: calc(1%)
+    }
+    .zixun>.row>ul>li>.lxr>p {
+        display: block;
+        height: 80px;
+        padding: 0 10px
+    }
+    .zixun>.row>ul>li>.lxr>p>a {
+        color: #fff;
+        line-height: 25px
+    }
+    .zixun>.row>ul>li>.lxr>p>a:hover {
+        color: #d2691e
+    }
+    .zixun>.row>ul>li>.lxr>span {
+        display: inline-block;
+        width: auto;
+        text-align: center;
+        font-size: 20px;
+        line-height: 50px;
+        color: #fff
+    }
+    .zixun>.row>ul>li>.lxr>span>img {
+        display: block
+    }
+    .zixun>.row>ul>li>.lxr>ul {
+        width: 90%;
+        margin: 0 auto 20px
+    }
+    .zixun>.row>ul>li>.lxr>ul>li {
+        text-align: left;
+        color: #fff;
+        font-size: 14px;
+        line-height: 30px
+    }
+    .zixun>.row>ul>li>.lxr>ul>li>u {
+        font-size: 18px
+    }
+    .zixun>.row>ul>li>.lxr>ul>li>u:before {
+        content: "\e607";
+        font-family: iconfont!important;
+        color: #fff;
+        margin-right: 10px
+    }
+}
+
+@media screen and (max-width:767px) {
+    .zixun {
+        width: 100%;
+        padding: 0;
+        zoom: 1;
+        margin-bottom: 20px
+    }
+    .zixun>.row>h5 {
+        text-align: center;
+        font-size: 25px;
+        padding-bottom: 10px;
+        position: relative
+    }
+    .zixun>.row>h5:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        height: 13px;
+        width: 60%;
+        background: url(../images/img-lyw/channel-title-bg.png) top center no-repeat;
+        background-size: 100% 100%;
+        left: 20%
+    }
+    .zixun>.row>ul {
+        overflow: hidden;
+        margin: 30px 0 0;
+        margin-bottom: 0;
+    }
+    .zixun>.row>ul>li {
+        width: auto;
+        float: none;
+        cursor: pointer;
+        transition: all .3s;
+        text-align: center;
+        padding: 3px 0;
+        margin-bottom: 0;
+    }
+    .zixun>.row>ul>li>.lxr {
+        height: 479px;
+        width: auto;
+        margin: 8px;
+        border: 1px solid #fff
+    }
+    .zixun>.row>ul>li>.lxr>b {
+        display: block;
+        font-size: 25px;
+        color: #fff;
+        margin: 20px 0;
+        position: relative;
+        text-align: center
+    }
+    .zixun>.row>ul>li>.lxr>b:after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        height: 1px;
+        width: 90%;
+        background: #fff;
+        left: calc(5%)
+    }
+    .zixun>.row>ul>li>.lxr>p {
+        height: auto
+    }
+    .zixun>.row>ul>li>.lxr>p>a {
+        color: #fff;
+        line-height: 25px
+    }
+    .zixun>.row>ul>li>.lxr>p>a:after {
+        content: "、"
+    }
+    .zixun>.row>ul>li>.lxr>span {
+        display: inline-block;
+        width: auto;
+        text-align: center;
+        font-size: 20px;
+        line-height: 50px;
+        color: #fff
+    }
+    .zixun>.row>ul>li>.lxr>span>img {
+        display: block
+    }
+    .zixun>.row>ul>li>.lxr>ul {
+        width: 280px;
+        margin: 0 auto 20px
+    }
+    .zixun>.row>ul>li>.lxr>ul>li {
+        text-align: left;
+        color: #fff;
+        font-size: 14px;
+        line-height: 30px
+    }
+    .zixun>.row>ul>li>.lxr>ul>li>u {
+        font-size: 18px
+    }
+    .zixun>.row>ul>li>.lxr>ul>li>u:before {
+        content: "\e607";
+        font-family: iconfont!important;
+        color: #fff;
+        margin-right: 10px
+    }
+    .zixun>.row>ul>li:nth-child(1) {
+        background: #47BD59
+    }
+    .zixun>.row>ul>li:nth-child(2) {
+        background: #F3862C
+    }
+    .zixun>.row>ul>li:nth-child(3) {
+        background: #AE74CD
+    }
+    .zixun>.row>ul>li:nth-child(4) {
+        background: #107EB1
+    }
+}

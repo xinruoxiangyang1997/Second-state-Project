@@ -2,15 +2,19 @@
 @media screen and (min-width: 768px) {
   .row {
     padding: 0;
+    margin: 0;
   }
   .col-lg-6 {
     padding: 0;
+    margin: 0;
   }
   .col-lg-12 {
     padding: 0;
+    margin: 0;
   }
   .container-fluid {
     padding: 0;
+    margin: 0;
   }
   .ban {
     width: 100%;
@@ -505,13 +509,20 @@
 }
 @media screen and (max-width: 767px) {
   .row {
-    padding: 0 10px;
+    padding: 0;
+    margin: 0;
   }
   .col-lg-6 {
     padding: 0;
+    margin: 0;
   }
   .col-lg-12 {
-    padding-right: 0;
+    padding: 0;
+    margin: 0;
+  }
+  .container-fluid {
+    padding: 0;
+    margin: 0;
   }
   .ban {
     width: 100%;
@@ -582,7 +593,7 @@
     z-index: 2147483637;
   }
   .city > .row > ul > li {
-    width: 14%;
+    width: 14.25%;
     display: inline-block;
     margin-bottom: 0px;
     float: left;
