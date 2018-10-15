@@ -92,9 +92,9 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">关于聚客友</a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">公司简介</a></li>
-                            <li><a href="#">荣誉资质</a></li>
-                            <li><a href="#">公司动态</a></li>
+                            <li><a href="./eg01_sgy.html">公司简介</a></li>
+                            <li><a href="./eg02_sgy.html">荣誉资质</a></li>
+                            <li><a href="./eg03_sgy.html">公司动态</a></li>
                         </ul>
                     </li>
                     <li><a href="./lyw-hezuo.html">渠道合作</a></li>
@@ -425,11 +425,11 @@
         // 上海
         var map = new BMap.Map("map_sh"); // 创建Map实例
         var point = new BMap.Point(121.441211, 31.247924);
-        map.centerAndZoom(point, 12);
+        map.centerAndZoom(point, 12); // 初始化地图,设置中心点坐标和地图级别
         var marker = new BMap.Marker(point); // 创建标注
         map.addOverlay(marker); // 将标注添加到地图中
         marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
-        map.centerAndZoom("上海", 12); // 初始化地图,设置中心点坐标和地图级别
+        // map.centerAndZoom("上海", 12);
         //添加地图类型控件
         var label = new BMap.Label(`上海国经网络科技股份有限公司（总部)`, {
             offset: new BMap.Size(20, -30)
@@ -454,6 +454,8 @@
         var label = new BMap.Label(`国经网络科技南通有限公司`, {
             offset: new BMap.Size(20, -30)
         });
+        // 设置lable的样式
+
         marker.setLabel(label);
         //添加地图类型控件
         map.addControl(new BMap.MapTypeControl({
