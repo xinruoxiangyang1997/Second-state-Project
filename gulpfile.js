@@ -23,7 +23,7 @@ gulp.task('uglify', function() {
 //终端中运行   $  gulp uglify
 
 //复制剩余js代码
-gulp.task('copyHtml', function() {
+gulp.task('copyRestJs', function() {
     return gulp.src(['src/js/jquery-3.3.1.min.js', 'src/js/jquery.SuperSlide.2.1.1.js', 'jquery.SuperSlide.2.1.1.js', 'qcloud_data_wj.json']).pipe(gulp.dest('dist/js'));
 });
 
